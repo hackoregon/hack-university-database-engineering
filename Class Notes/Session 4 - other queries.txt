@@ -1,0 +1,95 @@
+aggregate functions
+COUNT(col), COUNT(*), COUNT(DISTINCT col), COUNT(*) FILTER (WHERE col2 = 5)
+
+window functions
+COUNT(*) OVER (PARTITION BY "Neighborhood") other functions defined at 
+http://www.postgresql.org/docs/current/static/functions-window.html#FUNCTIONS-WINDOW-TABLE
+
+join syntax
+FROM t1 AS l INNER/LEFT/RIGHT/FULL JOIN t2 r ON l.col = r.col
+FROM t1 AS l CROSS JOIN t2 r 
+
+table expression subqueries
+SELECT *
+FROM (SELECT * FROM crimedataraw) alias_for_subquery
+
+list subqueries
+SELECT *
+FROM crimedataraw
+WHERE "Neighborhood" IN (SELECT "Neighborhood" FROM crimedataraw WHERE "MajorOffenseType" = 'Runaway')
+
+scalar subqueries
+SELECT *
+FROM crimedataraw o
+WHERE o."Neighborhood" = (SELECT "Neighborhood" 
+			FROM crimedataraw
+			GROUP BY "Neighborhood" 
+			ORDER BY COUNT(*) DESC 
+			LIMIT 1)
+LIMIT 100
+
+
+correlated/uncorrelated subqueries
+SELECT "Neighborhood"
+FROM crimedataraw o
+WHERE EXISTS (SELECT 1 FROM crimedataraw i WHERE i."Neighborhood" = o."Neighborhood" AND i."MajorOffenseType" = 'Runaway')
+GROUP BY "Neighborhood"
+
+SELECT "Neighborhood", CASE WHEN (	SELECT 1 
+					FROM crimedataraw i 
+					WHERE i."Neighborhood" = o."Neighborhood" AND i."MajorOffenSEType" = 'Runaway' 
+					LIMIT 1) IS NOT NULL THEN 'has' ELSE 'doesn''t have' END || ' runaway'
+FROM crimedataraw o
+GROUP BY "Neighborhood"
+
+
+CREATE TABLE name
+(
+	col1 type,
+	col2 type,
+	col3 type
+)
+
+Temp TABLEs
+
+ALTER TABLE TABLE ADD col1 type
+
+INSERT INTO TABLE (col1)
+SELECT col1
+FROM TABLE
+
+INSERT INTO TABLE (col1) 
+VALUES (1), 
+	(2), 
+	(3);
+
+SELECT col1
+INTO TABLE2
+FROM TABLE1
+
+UPDATE TABLE SET col1 = val
+FROM other_TABLE
+WHERE joIN_criteria
+
+
+
+Assignments
+1. Rename crimedataraw columns to follow postgres standards.  We should all end up with the exact same names.
+
+2. For each crime type, count the number of neighborhoods where it happened.
+
+3. Create sentences for the different crime types sayINg "<crime type> isn't ok."
+
+4. Extract distinct crime types from crimedataraw using SELECT INTO and then add an id column.
+4.1 Add appropriate crime type id to crimedataraw.
+5. Repeat for neighborhood names using CREATE TABLE and not altering the table after.
+
+6. Pull back the number of each crime type committed per neighborhood (0 if there were 0).
+
+7. Show 10 crimes and the type of the previous crime committed in that same neighborhood.
+
+8. Modify crime type table to include cost_per_crime and populate with data similar to what's found here http://www.rand.org/jie/justice-policy/centers/quality-policingg/cost-of-crime.html  insert values into a temp table and do an join to allow an batch update to the major crime table.
+
+9. Pull back total crimes and total crime cost for each neighborhood.
+
+10. Pull back total crimes and total crime cost for the neighborhood with the highest total cost.

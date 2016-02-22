@@ -1,0 +1,123 @@
+Tables 
+-a collection of records
+-each record has the same structure--the table's schema.
+-Important: tables are sets, not lists.  Tables are unordered.
+
+Naming Conventions
+-no spaces in names
+-Use lower case and underscores to separate words on PostGRES
+-people who work with data tend to use plural nouns for table names.  People who think of data as an afterthought tend to use singular nouns.  Be consistent and coordinate with the rest of the team.
+-Columns should be singular if a given cell holds a single object.
+-Tables have underlying name structure of DBName.SchemaName.TableName
+
+Candidate Keys
+-if you have 4 identical rows, how can you ask the database to make a change to one of them?
+-a candidate key is a set of columns that don't have any duplicates.
+-Typically the database enforces that candidate keys don't have null values or duplicates.
+
+Schema Diagram - ERD
+-Colors: ID, Name, RGB
+-Materials: ID, Name, CareInstructions
+-Ties: ColorID, MaterialID
+
+What's a join
+-Look at the record for one table.  If it's storing a candidate key for another table, you can also retrieve the corresponding row from the other table.
+
+NULL
+-two value logic has true and false
+-three value logic can have true, false, and meh (NULL).
+-You can't ignore NULLS in your db design. You need to decide what they mean. The two most common choice is that NULL means, 'I don't know'.
+-If NULL doesn't have a meaning, don't allow NULLs.
+-NULL is not the same as an empty string.
+-What does 1 + "I don't know" equal?
+
+
+Comments
+--comment
+/*comment*/
+
+Structure of Select
+SELECT TOP 10 *
+FROM TABLE
+
+SELECT *
+FROM TABLE
+LIMIT 10
+
+WHERE
+Logical Value
+
+NULL
+Do you want the record or not?
+
+Data Types
+smallint
+integer (int)
+bigint
+uuid/guid
+real/float()
+double precision/float()
+decimal(total digits,mantissa digits)
+numeric(total digits,mantissa digits)
+Money
+serial
+varchar()
+char()<-avoid on postgres
+text
+--utf8
+bytea
+date
+time
+timestamp
+interval
+--w|w/o time zone
+boolean
+geometric types 
+other types
+
+Aliasing
+select t.id
+from table t
+
+
+Expressions and built in functions
+||
+length
+like
+~
+regex functions
+to_char
+now()
+http://www.postgresql.org/docs/current/static/functions.html
+User-defined functions too
+
+Between, is null
+overlaps
+
+Order by
+
+
+Group by
+
+
+Having
+
+
+Aggregate functions Count, Min, Max, Sum, Avg
+
+
+select 5 rows from table
+select date and neighborhood for 10 rows
+select the hour of the day for 10 rows
+select the second word of the neighborhood name
+Create a sentence describing what happened on each row for 100 rows (using a query)
+
+first row inserted
+last row inserted
+total crimes by neighborhood
+min and max coordinates by neighborhood
+which hour has the most crimes?
+which day of week?
+Assuming that each neighborhood is square and lines up with the coordinate system, which neighborhood has the highest crime rate per square foot?  Do it with one query?
+Which neighborhood has the highest rate of each type of crime?
+Which season has the highest rate of crime?
