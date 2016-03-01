@@ -10,7 +10,7 @@
 ### Day 5 2/24
 [Normalization](Class Notes/Session 5 - Normalization.txt)
 ### Day 6 2/28
-z Importing Data
+[Loading Data](Class Notes/Session 6 - Loading Data.txt)
 ### Day 7 3/2
 z Catch Our Breath (no new material)
 ### Day 8 3/6
@@ -34,3 +34,4 @@ a Other DB Types
 
 ### Not Covered
 Full Text Search
+Grouping Sets
