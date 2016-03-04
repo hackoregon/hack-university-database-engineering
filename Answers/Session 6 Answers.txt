@@ -1,0 +1,39 @@
+--1. create a new version of the crime_data table in 3rd normal form
+ALTER TABLE crimedataraw DROP major_offense_type, DROP neighborhood;
+
+SELECT police_district, count(distinct police_precinct)
+FROM crimedataraw
+GROUP BY police_district
+HAVING count(distinct police_precinct) > 1
+
+SELECT police_precinct, count(distinct police_district)
+FROM crimedataraw
+GROUP BY police_precinct
+HAVING count(distinct police_district) > 1
+
+SELECT DISTINCT police_district, police_precinct
+FROM crimedataraw
+WHERE police_district = '20'
+--There's almost a one to many relationship between precinct and district, but district 20 breaks it.  So, this isn't a dependency.
+
+SELECT police_district, count(distinct neighborhood_id)
+FROM crimedataraw
+GROUP BY police_district
+HAVING count(distinct neighborhood_id) > 1
+
+SELECT neighborhood_id, count(distinct police_district)
+FROM crimedataraw
+GROUP BY neighborhood_id
+HAVING count(distinct police_district) > 1
+--no relationship between hood and district
+
+SELECT police_precinct, count(distinct neighborhood_id)
+FROM crimedataraw
+GROUP BY police_precinct
+HAVING count(distinct neighborhood_id) > 1
+
+SELECT neighborhood_id, count(distinct police_precinct)
+FROM crimedataraw
+GROUP BY neighborhood_id
+HAVING count(distinct police_precinct) > 1
+--no relationship here either, so we're done.

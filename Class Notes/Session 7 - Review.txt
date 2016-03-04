@@ -1,0 +1,6 @@
+Useful tools:
+file <filename>
+iconv -f ISO-8859-15 -t UTF-8 <source-file> > <target-file>
+csvcut -c <comma-separated-list-of-column-names> <source-file> > <target-file>
+
+One way of dealing with encoding issues is to use a text editor to remove all of the offending characters

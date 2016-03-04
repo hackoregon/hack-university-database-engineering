@@ -1,0 +1,153 @@
+--1. select the crime types and counts into a temp table.  select 1 record from this table and thendelete that record.  Repeat until the table is empty.
+SELECT major_offense_type, COUNT(*) AS occurences
+INTO TEMP t
+FROM crimedataraw
+GROUP BY major_offense_type;
+
+SELECT *
+FROM t
+ORDER BY major_offense_type
+LIMIT 1;
+
+DELETE FROM t
+WHERE major_offense_type = (SELECT major_offense_type
+				FROM t
+				ORDER BY major_offense_type
+				LIMIT 1);
+
+
+--2. create a CTE to join crimedataraw and the two related tables.  select * from it (10 rows).
+WITH rejoined AS
+(
+SELECT *
+FROM crimedataraw cdr INNER JOIN crime_types ct
+	ON cdr.major_offense_type_id = ct.ID
+INNER JOIN neighborhoods n
+	ON cdr.neighborhood_id = n.ID
+)
+SELECT *
+FROM rejoined
+LIMIT 10
+
+--3. load world data FROM postgres example db site into new db called world
+
+--4. draw ERD for world
+
+--5. create a full join query using cross join and union
+--DROP TABLE t
+SELECT neighborhood
+INTO TEMP t
+FROM crimedataraw
+WHERE major_offense_type = 'Runaway'
+GROUP BY neighborhood
+
+SELECT neighborhood
+INTO TEMP t2
+FROM crimedataraw
+GROUP BY neighborhood
+
+/*start with the base cross join*/
+SELECT *
+FROM t CROSS JOIN t2
+WHERE t.neighborhood = t2.neighborhood
+UNION --Add everything that appears in table t, but doesn't have a match in t2
+(
+SELECT t.neighborhood, NULL
+FROM t
+EXCEPT
+SELECT t2.neighborhood, NULL
+FROM t2
+)
+UNION --Add everything that appears in table t2, but doesn't have a match in t
+(
+SELECT NULL, t2.neighborhood
+FROM t2
+EXCEPT
+SELECT NULL, t.neighborhood
+FROM t
+)
+
+--6. create a new varchar column called test_column on crimedataraw.  Run an update statement to assign the value 'value' to the test column for every row.  Write down how long it took.  Run the update several times.  Write down the execution time for each run.
+ALTER TABLE crimedataraw ADD test_column VARCHAR;
+
+UPDATE crimedataraw SET test_column = 'value'
+--2132
+--1775
+--1226
+--1583
+
+CREATE INDEX ix_1 ON crimedataraw (test_column)
+CREATE INDEX ix_2 ON crimedataraw (test_column)
+CREATE INDEX ix_3 ON crimedataraw (test_column)
+
+UPDATE crimedataraw SET test_column = 'value'
+--5811
+--6184
+--4964
+
+--7. create primary key constraints on all appropriate columns for 3 crime data tables
+ALTER TABLE Crimedataraw ADD CONSTRAINT PK_crimedataraw PRIMARY KEY (ID);
+ALTER TABLE crime_types ADD CONSTRAINT PK_crime_types PRIMARY KEY (ID);
+ALTER TABLE neighborhoods ADD CONSTRAINT PK_neighborhoods PRIMARY KEY (ID);
+
+--8. create foreign key constraints on all appropriate columns for crime data tables
+ALTER TABLE Crimedataraw ADD CONSTRAINT FK_crimedataraw_crime_type FOREIGN KEY (major_offense_type_ID) REFERENCES crime_types (ID);
+ALTER TABLE Crimedataraw ADD CONSTRAINT FK_crimedataraw_neighborhoods FOREIGN KEY (neighborhood_id) REFERENCES neighborhoods (ID);
+
+
+--9.1 join all three tables for crime data and pull back all the columns.  How long did it take?
+WITH rejoined AS
+(
+SELECT *
+FROM crimedataraw cdr INNER JOIN crime_types ct
+	ON cdr.major_offense_type_id = ct.ID
+INNER JOIN neighborhoods n
+	ON cdr.neighborhood_id = n.ID
+)
+SELECT *
+FROM rejoined
+
+--9.2 create indexes on all id fields for crime data.
+The create primary key creates indexes.
+
+--9.3 how long does the query from 9.1 take now?
+No change
+
+--10.1 use a correlated subquery on crime data tables
+ALTER TABLE crimedataraw ADD Report_Time_Date TIMESTAMP;
+
+UPDATE crimedataraw SET Report_Time_Date = Report_time+report_date;
+
+SELECT *, (SELECT major_offense_type 
+		FROM crimedataraw i 
+		WHERE i.neighborhood = o.neighborhood 
+			AND i.Report_Time_Date = (SELECT MAX(Report_Time_Date) 
+						FROM crimedataraw i 
+						WHERE i.neighborhood = o.neighborhood 
+							AND i.Report_Time_Date < o.Report_Time_Date) 
+		LIMIT 1)
+FROM crimedataraw o
+-->6 min
+
+
+
+--10.2 add an index for that subquery
+CREATE INDEX ix_crimedataraw_report_time_date ON crimedataraw (Report_Time_Date);
+CREATE INDEX ix_crimedataraw_neighborhood_report_time_date ON crimedataraw (neighborhood, Report_Time_Date);
+
+--10.3 how long does 10.1 take now?
+SELECT *, (SELECT major_offense_type 
+		FROM crimedataraw i 
+		WHERE i.neighborhood = o.neighborhood 
+			AND i.Report_Time_Date = (SELECT MAX(Report_Time_Date) 
+						FROM crimedataraw i 
+						WHERE i.neighborhood = o.neighborhood 
+							AND i.Report_Time_Date < o.Report_Time_Date) 
+		LIMIT 1)
+FROM crimedataraw o
+--19.3 sec
+
+--11. create 3 new indexes on crimedataraw that include the column test_column.  How long does the update from 6 take now?
+See question 6.
+
+--12. draw an ERD for our crime data.  What would you change to make it 3rd normal form?  What would you change to make it more useful for our queries?
