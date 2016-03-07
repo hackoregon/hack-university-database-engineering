@@ -14,7 +14,7 @@
 ### Day 7 3/2
 [Catch Our Breath](Class Notes/Session 7 - Review.txt)
 ### Day 8 3/6
-z Spatial Types and Redundancy
+[Spatial Types and Redundancy](Class Notes/Session 8 - GIS.txt)
 ### Day 9 3/9
 g Views, Stored Procedures, and Functions
 ### Day 10 3/13
