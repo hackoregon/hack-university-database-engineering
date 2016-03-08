@@ -206,6 +206,43 @@ Postgres is configured to use will be available. So, unlike a lot of application
 which use virtualenvs, you pretty much need to make sure that your system-wide dependencies
 are up to date.
 
+#### Setting up NLTK Example
+
+This sets up our library for doing some simple Natural Language processing
+(NLTK stands for Natural Language Tool Kit), and then downloads some 
+sample classification data, so we don't have to train any models
+to process new text.
+
+```bash
+sudo pip install nltk
+sudo mkdir -p /usr/local/share/nltk_data
+sudo python -m nltk.downloader -d /usr/local/share/nltk_data brown
+```
+
+Confirm that you got those setup correctly:
+
+```python
+
+from nltk.corpus import brown
+
+brown.words()
+[u'The', u'Fulton', u'County', u'Grand', u'Jury', ...]
+```
+
+```bash
+sudo pip install requests
+sudo pip install lxml
+```
+
+Now we need a way of getting data. Let's take a look at nice set of tools for scraping web sites.
+```python
+import requests
+from lxml import html
+
+resp = requests.get('http://hackoregon.com')
+text_body = html.fromstring(resp.text)
+
+```
 
 ### Stored Procedure References
 
