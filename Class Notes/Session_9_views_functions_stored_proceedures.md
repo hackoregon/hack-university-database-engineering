@@ -216,8 +216,12 @@ to process new text.
 ```bash
 sudo pip install nltk
 sudo mkdir -p /usr/local/share/nltk_data
-sudo python -m nltk.downloader -d /usr/local/share/nltk_data brown
+sudo python -m nltk.downloader -d /usr/local/share/nltk_data book
 ```
+
+This sets us up with ntlk, and a bunch of data that can be used
+to tokenize, or tag words we find elsewhere. We'll see how it works
+down below.
 
 Confirm that you got those setup correctly:
 
@@ -229,24 +233,70 @@ brown.words()
 [u'The', u'Fulton', u'County', u'Grand', u'Jury', ...]
 ```
 
+##### Setting up python packages via Apt
+
+Sometimes it's easiest just to you precompiled packages for python services.
+These packages are super useful for text manipulation. Go ahead and install these, too.
+
 ```bash
 sudo pip install requests
-sudo pip install lxml
+sudo aptitude install python-lxml
+sudo aptitude install postgresql-plpython
 ```
 
+##### Preparing Postgres to run Python
+
+```psql
+vagrant=# create extension plpythonu;
+CREATE EXTENSION
+vagrant=# \dL
+                             List of languages
+   Name    |  Owner   | Trusted |               Description                
+-----------+----------+---------+------------------------------------------
+ plpgsql   | postgres | t       | PL/pgSQL procedural language
+ plpythonu | vagrant  | f       | PL/PythonU untrusted procedural language
+(2 rows)
+
+```
+
+##### Python code to gather data.
 Now we need a way of getting data. Let's take a look at nice set of tools for scraping web sites.
+
 ```python
 import requests
+import nltk
 from lxml import html
 
-resp = requests.get('http://hackoregon.com')
-text_body = html.fromstring(resp.text)
-
+# Find something on longform.org to get lots of words in one page.
+resp = requests.get('https://www.propublica.org/article/how-david-rubenstein-helped-save-the-carried-interest-tax-loophole')
+words = nltk.word_tokenize('\n'.join([item for item in html.fromstring(resp.text).itertext()])))
+freq_of_words = nltk.FreqDist(words)
+return freq_of_words
 ```
+
+##### Running our data gathering code inside the database.
+
+Now let's wrap up our python code in the stored procedure trappings: 
+
+```psql
+
+vagrant=# CREATE OR REPLACE FUNCTION get_word_freq(url text, OUT word text, OUT count integer) returns setof record as 
+$$
+import requests
+import nltk
+from lxml import html
+
+# Find something on longform.org to get lots of words in one page.
+resp = requests.get(url)
+return nltk.FreqDist(nltk.word_tokenize('\n'.join([item for item in html.fromstring(resp.text).itertext()]))).iteritems()
+$$ LANGUAGE plpythonu;
+```
+
+##### Possible uses
+
+- Store word frequencies in a table, use for identifying authors
 
 ### Stored Procedure References
 
 - [PostgreSQL Tutorial.com](http://www.postgresqltutorial.com/postgresql-stored-procedures/)
 - [PostgreSQL.org PLPython Docs](http://www.postgresql.org/docs/current/static/plpython.html)
-
-
