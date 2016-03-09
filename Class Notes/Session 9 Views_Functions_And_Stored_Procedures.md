@@ -56,7 +56,7 @@ only include a colloquial name for the place (usually a park).
 If we wanted a handy place holder for all the strange addresses in this dataset, we could make a view, 
 rather than remembering the filtering parameters every time:
 
-```PSQL
+```sql
 
 CREATE VIEW weird_addresses AS
 	SELECT * FROM crimedataraw
@@ -76,7 +76,7 @@ the existing record if it already exists" has traditionally been done using func
 
 Here's how to create a simple function:
 
-```PSQL
+```sql
 CREATE FUNCTION addition(in_a int, in_b int
 	) RETURNS int
 	LANGUAGE plpgsql
@@ -190,11 +190,6 @@ Since we're all using Python, let's have an example doing that.
 In Postgres, each language that can be supported for stored procedures has its own dialect.
 For python, this is called PLPython.
 
-Here's a really simple Python stored procedure:
-
-```python
-
-```
 
 #### Which Libraries Are Available?
 
@@ -213,7 +208,7 @@ This sets up our library for doing some simple Natural Language processing
 sample classification data, so we don't have to train any models
 to process new text.
 
-```bash
+```sh
 sudo pip install nltk
 sudo mkdir -p /usr/local/share/nltk_data
 sudo python -m nltk.downloader -d /usr/local/share/nltk_data book
@@ -278,7 +273,7 @@ return freq_of_words
 
 Now let's wrap up our python code in the stored procedure trappings: 
 
-```psql
+```sql
 
 vagrant=# CREATE OR REPLACE FUNCTION get_word_freq(url text, OUT word text, OUT count integer) returns setof record as 
 $$
@@ -293,7 +288,7 @@ $$ LANGUAGE plpythonu;
 ```
 
 Try it out!
-```psql
+```sql
 vagrant=# select * from get_word_freq_for_website('https://www.propublica.org/article/how-david-rubenstein-helped-save-the-carried-interest-tax-loophole'::text) ORDER BY count desc;
 ```
 
