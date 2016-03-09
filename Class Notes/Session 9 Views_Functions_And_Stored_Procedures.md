@@ -295,7 +295,10 @@ vagrant=# select * from get_word_freq_for_website('https://www.propublica.org/ar
 
 ##### Possible uses
 
-- Store word frequencies in a table, use for identifying authors
+- Take URLs from other tables, and annotate word frequencies.
+- If we remove common words, punctuation, etc., we could easily estimate reading level of documents.
+- Correlate documents based on word frequency.
+- Try to identify author, or relate to similar author style based on word choice.
 
 ### Stored Procedure References
 
