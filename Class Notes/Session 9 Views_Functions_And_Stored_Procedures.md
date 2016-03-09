@@ -280,10 +280,16 @@ $$
 import requests
 import nltk
 from lxml import html
+from nltk.corpus import stopwords
+import string
 
 # Find something on longform.org to get lots of words in one page.
 resp = requests.get(url)
-return nltk.FreqDist(nltk.word_tokenize('\n'.join([item for item in html.fromstring(resp.text).itertext()]))).iteritems()
+stop = stopwords.words('english') + [punct for punct in string.punctuation]
+word_freqs = nltk.FreqDist(nltk.word_tokenize('\n'.join([item for item in html.fromstring(resp.text).itertext()])))
+
+return {key: value for key, value in word_freqs.iteritems() if key not in stop}.iteritems()
+
 $$ LANGUAGE plpythonu;
 ```
 
