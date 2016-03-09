@@ -1,0 +1,6 @@
+*~
+.vagrant
+/data/*
+!/data/*.zip
+!/data/*.gz
+!/data/*.tar
