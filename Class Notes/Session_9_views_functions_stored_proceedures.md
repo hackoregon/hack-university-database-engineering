@@ -292,6 +292,12 @@ return nltk.FreqDist(nltk.word_tokenize('\n'.join([item for item in html.fromstr
 $$ LANGUAGE plpythonu;
 ```
 
+Try it out!
+```psql
+vagrant=# select * from get_word_freq_for_website('https://www.propublica.org/article/how-david-rubenstein-helped-save-the-carried-interest-tax-loophole'::text) ORDER BY count desc;
+```
+
+
 ##### Possible uses
 
 - Store word frequencies in a table, use for identifying authors
