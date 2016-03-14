@@ -16,22 +16,23 @@
 ### Day 8 3/6
 [Spatial Types and Redundancy](Class Notes/Session 8 - GIS.txt)
 ### Day 9 3/9
-g Views, Stored Procedures, and Functions
+[Views, Stored Procedures, and Functions](Class Notes/Session 9 - Views_Functions_And_Stored_Procedures.md)
 ### Day 10 3/13
-z Transactions and Error Handling
+[Transactions, Error Handling, Security](Class Notes/Session 10 - concurrency.md)
 ### Day 11 3/16
-z Security and Regular Expressions
+z Regular Expressions, Under the Hood/Query Optimization
 ### Day 12 3/20
-z Under the Hood/Query Optimization
+h Endpoint, Hooks, and Triggers
 ### Day 13 3/23
 g ETL and Data Cleanup
 ### Day 14 3/27
-h Endpoint, Hooks, and Triggers
+Easter, no class
 ### Day 15 3/30
 a ORM (SQL Alchemy)
 ### Day 16 4/3
-a Other DB Types
+Review project DBs as group
 
 ### Not Covered
+a Other DB Types
 Full Text Search
 Grouping Sets
