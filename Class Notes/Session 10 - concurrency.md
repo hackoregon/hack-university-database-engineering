@@ -1,7 +1,7 @@
 ##PLPGSQL
 Not called directly from prompt.  DO statement lets you use it.
 
-```PSQL
+```SQL
 DO $$
 DECLARE
 	myvar integer;
@@ -19,7 +19,7 @@ Otherwise, it's quite similar to SQL with the addition of variables and control 
 ##Transactions
 
 Transactions group work and make sets of instructions atomic.  All instructions are either commited or abandoned as a set.
-```PSQL
+```SQL
 
 BEGIN;
 SELECT 5 AS i INTO t;
@@ -36,18 +36,18 @@ COMMIT <- often implicit
 
 Postgres incorporates DB snapshots at the most basic level.  
 In one window run this:
-```PSQL
+```SQL
 BEGIN;
 UPDATE t SET i = 15;
 ```
 
 then run this in another window:
-```PSQL
+```SQL
 SELECT * FROM t;
 ```
 
 In the first window, run this:
-```PSQL
+```SQL
 COMMIT;
 ```
 Now rerun the command in the second window.
@@ -55,7 +55,7 @@ Now rerun the command in the second window.
 Reads and writes don't block each other, but writes do block each other.
 
 Now, close all your query windows and open two new ones.  In the first window, run this:
-```PSQL
+```SQL
 UPDATE t SET i = 0;
 
 BEGIN;
@@ -63,7 +63,7 @@ UPDATE t SET i = 15;
 ```
 
 Run this in the second window:
-```PSQL
+```SQL
 BEGIN;
 UPDATE t SET i = 15;
 
@@ -79,7 +79,7 @@ $$;
 ```
 
 Last, run this in the first window:
-```PSQL
+```SQL
 COMMIT
 ```
 
@@ -96,10 +96,10 @@ class, frequency
 1, 1
 2, 1
 
-```PSQL
+```SQL
 INSERT INTO myt SELECT 1, SUM(frequency) FROM myt WHERE class = 2
 ```
-```PSQL
+```SQL
 INSERT INTO myt SELECT 2, SUM(frequency) FROM myt WHERE class = 1
 ```
 
@@ -121,7 +121,7 @@ END;
 Once they're caught, you can 
 SQLSTATE contains error code
 SQLERRM gives the error description
-```PSQL
+```SQL
 GET CURRENT DIAGNOSTICS
 GET STACKED DIAGNOSTICS text_var1 = MESSAGE_TEXT,
                           text_var2 = PG_EXCEPTION_DETAIL,
@@ -130,7 +130,7 @@ GET STACKED DIAGNOSTICS text_var1 = MESSAGE_TEXT,
 Those commands get the current state and the state as of the last exception, respectively.
 
 You can raise you own errors.  
-```PSQL
+```SQL
 RAISE EXCEPTION '%', variable
 ```
 There are other levels of events that you can raise: DEBUG, LOG, INFO, NOTICE, and WARNING
