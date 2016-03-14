@@ -22,13 +22,13 @@
 ### Day 11 3/16
 z Regular Expressions, Under the Hood/Query Optimization
 ### Day 12 3/20
-h Endpoint, Hooks, and Triggers
+a ORM (SQL Alchemy)
 ### Day 13 3/23
 g ETL and Data Cleanup
 ### Day 14 3/27
 Easter, no class
 ### Day 15 3/30
-a ORM (SQL Alchemy)
+h Endpoint, Hooks, and Triggers
 ### Day 16 4/3
 Review project DBs as group
 
