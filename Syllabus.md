@@ -20,7 +20,7 @@
 ### Day 10 3/13
 [Transactions, Error Handling, Security](Class Notes/Session 10 - concurrency.md)
 ### Day 11 3/16
-z Regular Expressions, Under the Hood/Query Optimization
+[Regular Expressions, Under the Hood/Query Optimization](Class Notes/Session 11 - Under the Hood.md)
 ### Day 12 3/20
 a ORM (SQL Alchemy)
 ### Day 13 3/23
