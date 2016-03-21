@@ -28,11 +28,10 @@ g ETL and Data Cleanup
 ### Day 14 3/27
 Easter, no class
 ### Day 15 3/30
-h Endpoint, Hooks, and Triggers
+z Text Queries
 ### Day 16 4/3
 Review project DBs as group
 
 ### Not Covered
 a Other DB Types
-Full Text Search
 Grouping Sets
