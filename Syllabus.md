@@ -22,7 +22,7 @@
 ### Day 11 3/16
 [Regular Expressions, Under the Hood/Query Optimization](Class Notes/Session 11 - Under the Hood.md)
 ### Day 12 3/20
-a ORM (SQL Alchemy)
+[ORM (Django)](hack-university-orm-master/README.md)
 ### Day 13 3/23
 g ETL and Data Cleanup
 ### Day 14 3/27
