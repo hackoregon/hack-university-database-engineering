@@ -20,7 +20,7 @@
 ### Day 10 3/13
 [Transactions, Error Handling, Security](Class Notes/Session 10 - concurrency.md)
 ### Day 11 3/16
-[Regular Expressions, Under the Hood/Query Optimization](Class Notes/Session 11 - Under the Hood.md)
+[Regular Expressions, Under the Hood/Query Optimization](Class Notes/Session 11 - Under the Hood.md) - [Answers](Answers/Session 11 Answers.txt)
 ### Day 12 3/20
 [ORM (Django)](hack-university-orm-master/README.md)
 ### Day 13 3/23
