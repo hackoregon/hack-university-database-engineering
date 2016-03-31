@@ -28,7 +28,7 @@ g ETL and Data Cleanup
 ### Day 14 3/27
 Easter, no class
 ### Day 15 3/30
-z Text Queries
+[Text Queries](Class Notes/Session 15 - Text Queries.md) - [Answers to postgres questions](Answers/Session 15 Answers.txt), [Answers to python questions](Answers/Python Map Reduce Example with answers.ipynb)
 ### Day 16 4/3
 Review project DBs as group
 
