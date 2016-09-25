@@ -18,4 +18,21 @@ Vagrant is a system that allows you to automate a lot of the process involved in
 Go to the Vagrant [download page](https://www.vagrantup.com/downloads.html) to find the installation package for your OS. Download the package and double click it to open it with your package manager (software installer). On Ubuntu, the "Software Center" will launch and you click either the orange "Install" or "Upgrade" button.
 
 
+#### Setup first Vagrant Box
+If you want to start your vagrant box from scratch, create a directory and execute the following commands from within that directory
+```
+vagrant init ubuntu/trusty64
+vagrant up
+```
+
+For this class, you won't be creating a new vagrant box and should download the two files [here](Config/Session 1) into a new folder and then execute these commands.
+
+```
+vagrant up
+vagrant ssh
+firefox
+```
+
+If everything worked correctly, you should now see a new firefox window with a title "Firefox on vagrant".
+
 These instructions were adapted from the instructions put together for a previous version of Machine Learning [source](https://github.com/hackoregon/hack-university-machine-learning/blob/master/docs/install.md)
