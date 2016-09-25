@@ -23,6 +23,10 @@ Transactions, Error Handling, Security
 Regular Expressions, Under the Hood/Query Optimization
 ### Day 12 11/16
 ORM (Django)
+### Day Off 11/21
+Dream About Turkey
+### Day Off #2 11/23
+Start Cooking Turkey
 ### Day 13 11/28
 ETL and Data Cleanup
 ### Day 14 11/30
