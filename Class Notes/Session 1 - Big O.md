@@ -43,11 +43,13 @@ Iterations of the loop make good steps for this example.
 
 How many steps are done by each algorithm for fib(2)?  fib(10)?  fib(1000)?
 
-common growth rates
+Common Growth Rates:
+
 1. 1
 1. n
 1. 2^n
 1. log(n)
+
 
 Putting money under your mattress is a good examples of linear growth.
 Saving money at the bank and counting in binary are good examples of exponential growth.
@@ -57,13 +59,16 @@ Play this [video game](http://www.kongregate.com/games/Playsaurus/clicker-heroes
 
 
 ##Algorithms for Databases.
-Four algorithms are really important in DBs
-1. Linear search
-* Binary search
-* Sort
-*Hashing (this will come later)
+Four algorithms are really important in DBs:
 
-linear search is O(n)
-binary search is O(log n)
-sort is O(n log n)
+1. Linear search
+1. Binary search
+1. Sort
+1. Hashing (this will come later)
+
+Linear search is O(n).
+
+Binary search is O(log n).
+
+Sort is O(n log n).
 
