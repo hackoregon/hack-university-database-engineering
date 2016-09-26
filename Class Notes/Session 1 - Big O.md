@@ -28,20 +28,30 @@ Function calls make good steps in this example.
 ####Simple Iterative Factorial
 ```
 fib(target)
-	f, fm1, i, temp = 1
-	fm2 = 0
+	current, i, temp = 1
+	last = 0
 	
 while i < target
-		temp = fm1 + fm2
-		fm2 = fm1
-		fm1 = f
-		f = temp
+		temp = current + last
+		last = current
+		current = temp
 		i = i + 1
-	return f
+	return current
 ```
 Iterations of the loop make good steps for this example.
 
 How many steps are done by each algorithm for fib(2)?  fib(10)?  fib(1000)?
+
+|target|fib(target)|iterative|recursive|
+|:---:|:---:|:---:|:---:|
+|1|1|1|1|
+|2|1|1|1|
+|3|2|2|3|
+|4|3|3|5|
+|5|5|4|9|
+|10|55|9|109|
+|100|354,224,848,179,262,000,000|99|33,282,055,501,241,100,000,000|
+
 
 Common Growth Rates:
 
@@ -52,7 +62,7 @@ Common Growth Rates:
 
 
 Putting money under your mattress is a good examples of linear growth.
-Saving money at the bank and counting in binary are good examples of exponential growth.
+Saving money at the bank is a good example of exponential growth.
 
 ####Help understanding exponential growth:
 Play this [video game](http://www.kongregate.com/games/Playsaurus/clicker-heroes) for one hour.  Every 5 minutes, write down your DPS and predict what your DPS will be in 5 minutes.

@@ -12,27 +12,26 @@ Normalization
 ### Day 6 10/26
 Loading Data
 ### Day 7 10/31
-Catch Our Breath
-### Day 8 11/2
 Spatial Types and Redundancy
-### Day 9 11/7
+### Day 8 11/2
 Views, Stored Procedures, and Functions
-### Day 10 11/9
+### Day 9 11/7
 Transactions, Error Handling, Security
-### Day 11 11/14
+### Day 10 11/9
 Regular Expressions, Under the Hood/Query Optimization
-### Day 12 11/16
+### Day 11 11/14
 ORM (Django)
+### Day 12 11/16
+ETL and Data Cleanup
 ### Day Off 11/21
 Dream About Turkey
 ### Day Off #2 11/23
 Start Cooking Turkey
 ### Day 13 11/28
-ETL and Data Cleanup
-### Day 14 11/30
-TBD
-### Day 15 12/5
 Text Queries and Map Reduce
-### Day 16 12/7
+### Day 14 11/30
+More Data Loading
+### Day 15 12/5
 Review project DBs as group
-
+### Day 16 12/7
+TBD
