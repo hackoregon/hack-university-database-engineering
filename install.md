@@ -2,7 +2,7 @@
 
 We will use Vagrant and Virtual Box so all of our systems will behave identically.
 
-#### [Download VirtualBox](https://www.virtualbox.org/wiki/Downloads) 
+#### Download [VirtualBox](https://www.virtualbox.org/wiki/Downloads) 
 
 Virtual Box allows you to run a small linux computer within your laptop!  Find the right package for your OS and install it:
 
@@ -11,7 +11,7 @@ Virtual Box allows you to run a small linux computer within your laptop!  Find t
 - [OSX](http://download.virtualbox.org/virtualbox/5.0.14/VirtualBox-5.0.14-105127-OSX.dmg)
 - [Win64](http://download.virtualbox.org/virtualbox/5.0.14/VirtualBox-5.0.14-105127-Win.exe)
 
-#### [Download Vagrant](https://www.vagrantup.com/downloads.html)
+#### Download [Vagrant](https://www.vagrantup.com/downloads.html)
 
 Vagrant is a system that allows you to automate a lot of the process involved in configuring and controlling virtual machines on your laptop. 
 
@@ -22,7 +22,7 @@ Download [PuTTy](http://www.putty.org/)
 
 This is tool allows you to open a shell session to your virtual box.
 
-[Download Xming](https://sourceforge.net/projects/xming/)
+Download [Xming](https://sourceforge.net/projects/xming/)
 
 This allows you to open a GUI session from your virtual box.  Before running PuTTy, always launch Xming. 
 
