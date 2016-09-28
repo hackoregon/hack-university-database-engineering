@@ -17,9 +17,15 @@ Vagrant is a system that allows you to automate a lot of the process involved in
 
 Go to the Vagrant [download page](https://www.vagrantup.com/downloads.html) to find the installation package for your OS. Download the package and double click it to open it with your package manager (software installer). On Ubuntu, the "Software Center" will launch and you click either the orange "Install" or "Upgrade" button.
 
-#### Windows Only [Download Xming](https://sourceforge.net/projects/xming/)
+#### Windows Only 
+Download [PuTTy](http://www.putty.org/)
 
-Linux and Mac have built in support for X11 (the graphic display framework used on linux).  Windows users will need to install and run Xming or another X11 emulator for this class.
+This is tool allows you to open a shell session to your virtual box.
+
+[Download Xming](https://sourceforge.net/projects/xming/)
+
+This allows you to open a GUI session from your virtual box.  Before running PuTTy, always launch Xming. 
+
 
 #### Setup first Vagrant Box
 If you want to start your vagrant box from scratch, create a directory and execute the following commands from within that directory
