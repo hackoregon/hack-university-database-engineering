@@ -17,6 +17,10 @@ Vagrant is a system that allows you to automate a lot of the process involved in
 
 Go to the Vagrant [download page](https://www.vagrantup.com/downloads.html) to find the installation package for your OS. Download the package and double click it to open it with your package manager (software installer). On Ubuntu, the "Software Center" will launch and you click either the orange "Install" or "Upgrade" button.
 
+#### Mac Only
+
+Download and install [XQuartz](https://www.xquartz.org/).
+
 #### Windows Only
 
 [This site](https://wiki.utdallas.edu/wiki/display/FAQ/X11+Forwarding+using+Xming+and+PuTTY) has fairly accurate documentation of what we'll be doing.  You won't be able to make the connection until your vagrant box is setup
