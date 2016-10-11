@@ -1,6 +1,6 @@
 ## Syllabus
 ### Day 1 10/10
-Install and Big O
+[Install and Big O](Class Notes/Session 1 - Big O.md)
 ### Day 2 10/12
 Why use a DB
 ### Day 3 10/17
