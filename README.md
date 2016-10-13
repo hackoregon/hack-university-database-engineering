@@ -1,4 +1,4 @@
 # hack-university-database-engineering
 Start by [installing the software](install.md).
 
-Afterwards, checkout the [syllabus](syllabus.md).
+Afterwards, check out the [syllabus](syllabus.md).
