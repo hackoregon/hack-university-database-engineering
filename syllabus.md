@@ -2,7 +2,7 @@
 ### Day 1 10/10
 [Install and Big O](Class Notes/Session 1 - Big O.md)
 ### Day 2 10/12
-Why use a DB
+[Why use a DB](Class Notes/Session 2 - Database Fundamentals.html)
 ### Day 3 10/17
 Select Queries
 ### Day 4 10/19
