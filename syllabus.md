@@ -4,7 +4,7 @@
 ### Day 2 10/12
 [Why use a DB](Class Notes/Session 2 - Database Fundamentals.html)
 ### Day 3 10/17
-Select Queries
+[Select Queries](Class Notes/Session 3 - Select Queries.md)
 ### Day 4 10/19
 Other Queries
 ### Day 5 10/24
