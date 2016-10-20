@@ -6,7 +6,7 @@
 ### Day 3 10/17
 [Select Queries](Class Notes/Session 3 - Select Queries.md)
 ### Day 4 10/19
-Other Queries
+[Other Queries](Class Notes/Session 4 - Other Queries.md)
 ### Day 5 10/24
 Normalization
 ### Day 6 10/26
