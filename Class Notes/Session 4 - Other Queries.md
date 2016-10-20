@@ -28,7 +28,7 @@ FROM t1 AS l CROSS JOIN t2 r
 ### Table Expression Subqueries
 ```
 SELECT *
-FROM (SELECT * FROM crimedata.crimedataraw) alias_for_subquery;
+FROM (SELECT ID, neighborhood FROM crimedata.crimedataraw) alias_for_subquery;
 ```
 
 ### List Subqueries
@@ -107,17 +107,6 @@ ALTER TABLE TABLE ADD col1 type;
 ## Insert into
 Another way to create a table is through an insert into clause on a select statement.
 ```
-INSERT INTO TABLE (col1)
-SELECT col1
-FROM TABLE;
-```
-```
-INSERT INTO TABLE (col1)
-VALUES (1),
-	(2),
-	(3);
-```
-```
 SELECT col1
 INTO TABLE2
 FROM TABLE1;
@@ -132,6 +121,12 @@ WHERE join_criteria; --this clause is optional
 
 ## Insert
 Insert queries insert new data into an existing table.
+```
+INSERT INTO schema.table (col1)
+VALUES (1),
+	(2),
+	(3);
+```
 ```
 INSERT INTO schema.table (col1)
 SELECT col10
@@ -152,7 +147,7 @@ DROP TABLE schema.table;
 ```
 
 
-Assignment
+## Assignment
 
 1. For each crime type, count the number of neighborhoods where it happened.
 
