@@ -8,7 +8,7 @@
 ### Day 4 10/19
 [Other Queries](Class Notes/Session 4 - Other Queries.md)
 ### Day 5 10/24
-Normalization
+[Normalization](Class Notes/Session 5 - Normalization.md)
 ### Day 6 10/26
 Loading Data
 ### Day 7 10/31

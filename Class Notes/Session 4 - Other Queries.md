@@ -55,7 +55,8 @@ LIMIT 100;
 ```
 SELECT neighborhood
 FROM crimedata.crimedataraw o
-WHERE EXISTS (SELECT 1 FROM crimedata.crimedataraw i WHERE i.neighborhood = o.neighborhood AND i.major_offense_type = 'Runaway')
+WHERE EXISTS (SELECT 1 FROM crimedata.crimedataraw i
+							WHERE i.neighborhood = o.neighborhood AND i.major_offense_type = 'Runaway')
 GROUP BY neighborhood;
 ```
 ```
