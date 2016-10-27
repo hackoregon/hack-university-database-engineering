@@ -21,9 +21,9 @@ LIMIT 10;
 
 --5. Create a sentence describing what happened on each row for 100 rows (using a query).
 SELECT FORMAT('If not for the brave police at district %s, it would have been a dark %s in %s on %s when a %s transpired.', Police_district,
-						CASE WHEN EXTRACT(hour FROM Report_Date) BETWEEN 5 AND 19 THEN 'day' ELSE 'night' END,
-						INITCAP(neighborhood), TO_CHAR(Report_date, 'FMMonth Dth'), major_offense_type)
-						,*
+		CASE WHEN EXTRACT(hour FROM Report_Date) BETWEEN 5 AND 19 THEN 'day' ELSE 'night' END,
+		INITCAP(neighborhood), TO_CHAR(Report_date, 'FMMonth Dth'), major_offense_type)
+		,*
 FROM crimedata.crimedataraw
 LIMIT 10
 
