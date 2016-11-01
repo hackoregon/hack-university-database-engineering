@@ -4,7 +4,7 @@
 ### Day 2 10/12
 [Why use a DB](Class Notes/Session 2 - Database Fundamentals.html)
 ### Day 3 10/17
-[Select Queries](Class Notes/Session 3 - Select Queries.md) -  [Answers](Answers/Session 3 Answers.txt) - [Ending Config Files](Congif/Session 3)
+[Select Queries](Class Notes/Session 3 - Select Queries.md) -  [Answers](Answers/Session 3 Answers.txt) - [Ending Config Files](Config/Session 3)
 ### Day 4 10/19
 [Other Queries](Class Notes/Session 4 - Other Queries.md) - Answers will be posted 11/2
 ### Day 5 10/24
@@ -12,7 +12,7 @@
 ### Day 6 10/26
 Review (No Notes)
 ### Day 7 10/31
-[Stored Code and Transactions](Class Notes/Session 7 - Stored Code.md) - [Ending Config Files](Congif/Session 7)
+[Stored Code and Transactions](Class Notes/Session 7 - Stored Code.md) - [Ending Config Files](Config/Session 7)
 ### Day 8 11/2
 Loading Data
 ### Day 9 11/7
