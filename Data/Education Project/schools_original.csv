@@ -1,0 +1,1395 @@
+SchoolID,School,District,DistID
+1,Baker Middle School,Baker SD 5J,1894
+2,Brooklyn Primary School,Baker SD 5J,1894
+4,Haines Elementary School,Baker SD 5J,1894
+5,Keating Elementary School,Baker SD 5J,1894
+7,South Baker Intermediate School,Baker SD 5J,1894
+8,Baker High School,Baker SD 5J,1894
+15,Pine Eagle Charter School,Pine Eagle SD 61,1897
+16,Alsea Elementary School,Alsea SD 7J,1899
+17,Alsea High School,Alsea SD 7J,1899
+18,Blodgett Elementary School,Philomath SD 17J,1900
+20,Philomath Elementary School,Philomath SD 17J,1900
+21,Philomath Middle School,Philomath SD 17J,1900
+22,Philomath High School,Philomath SD 17J,1900
+27,Adams Elementary School,Corvallis SD 509J,1901
+28,Cheldelin Middle School,Corvallis SD 509J,1901
+30,Garfield Elementary School,Corvallis SD 509J,1901
+33,Hoover Elementary School,Corvallis SD 509J,1901
+35,Jefferson Elementary School,Corvallis SD 509J,1901
+36,Lincoln Elementary School,Corvallis SD 509J,1901
+37,Mt View Elementary School,Corvallis SD 509J,1901
+38,Linus Pauling Middle School,Corvallis SD 509J,1901
+39,Wilson Elementary School,Corvallis SD 509J,1901
+40,Corvallis High School,Corvallis SD 509J,1901
+41,Crescent Valley High School,Corvallis SD 509J,1901
+42,Childrens Farm Home,Linn Benton Lincoln ESD,2098
+43,Monroe High School,Monroe SD 1J,1898
+45,Cedaroak Park Primary School,West Linn-Wilsonville SD 3J,1922
+46,Inza R Wood Middle School,West Linn-Wilsonville SD 3J,1922
+47,Stafford Primary School,West Linn-Wilsonville SD 3J,1922
+48,Sunset Primary School,West Linn-Wilsonville SD 3J,1922
+51,West Linn High School,West Linn-Wilsonville SD 3J,1922
+53,Forest Hills Elementary School,Lake Oswego SD 7J,1923
+54,Hallinan Elementary School,Lake Oswego SD 7J,1923
+55,Lake Grove Elementary School,Lake Oswego SD 7J,1923
+56,River Grove Elementary School,Lake Oswego SD 7J,1923
+58,Westridge Elementary School,Lake Oswego SD 7J,1923
+59,Lake Oswego Middle School,Lake Oswego SD 7J,1923
+60,Lakeridge Middle School,Lake Oswego SD 7J,1923
+61,Lake Oswego Senior High School,Lake Oswego SD 7J,1923
+62,Lakeridge High School,Lake Oswego SD 7J,1923
+65,Bilquist Elementary School,North Clackamas SD 12,1924
+72,Whitcomb Elementary School,North Clackamas SD 12,1924
+73,Milwaukie Elementary School,North Clackamas SD 12,1924
+76,Riverside Elementary School,North Clackamas SD 12,1924
+78,Sunnyside Elementary School,North Clackamas SD 12,1924
+79,View Acres Elementary School,North Clackamas SD 12,1924
+84,Rowe Middle School,North Clackamas SD 12,1924
+85,Clackamas High School,North Clackamas SD 12,1924
+86,Milwaukie High School,North Clackamas SD 12,1924
+87,Putnam High School,North Clackamas SD 12,1924
+88,Welches Elementary School,Oregon Trail SD 46,1926
+90,Damascus Middle School,Gresham-Barlow SD 10J,2183
+91,Deep Creek Elementary School,Gresham-Barlow SD 10J,2183
+92,Carus School,Canby SD 86,1929
+93,Clarkes Elementary School,Molalla River SD 35,1925
+94,Molalla Elementary School,Molalla River SD 35,1925
+95,Molalla River Middle School,Molalla River SD 35,1925
+96,Naas Elementary School,Oregon Trail SD 46,1926
+97,Boring Middle School,Oregon Trail SD 46,1926
+99,Kelso Elementary School,Oregon Trail SD 46,1926
+100,Sandy Grade School,Oregon Trail SD 46,1926
+101,Firwood Elementary School,Oregon Trail SD 46,1926
+102,Cedar Ridge Middle School,Oregon Trail SD 46,1926
+103,Colton Elementary School,Colton SD 53,1927
+104,Colton High School,Colton SD 53,1927
+105,Beavercreek Elementary School,Oregon City SD 62,1928
+106,Candy Lane Elementary School,Oregon City SD 62,1928
+107,Holcomb Elementary School,Oregon City SD 62,1928
+109,Gaffney Lane Elementary School,Oregon City SD 62,1928
+110,Jennings Lodge Elementary School,Oregon City SD 62,1928
+114,John McLoughlin Elementary School,Oregon City SD 62,1928
+115,Gardiner Middle School,Oregon City SD 62,1928
+116,Ogden Middle School,Oregon City SD 62,1928
+118,Oregon City Senior High School,Oregon City SD 62,1928
+119,Butte Creek Elementary School,Silver Falls SD 4J,2138
+121,Mulino Elementary School,Molalla River SD 35,1925
+122,William Knight Elementary School,Canby SD 86,1929
+124,Howard Eccles Elementary School,Canby SD 86,1929
+127,Ninety-One School,Canby SD 86,1929
+128,Rural Dell Elementary School,Molalla River SD 35,1925
+130,Eagle Creek Elementary School,Estacada SD 108,1930
+131,Clackamas River Elementary School,Estacada SD 108,1930
+134,Estacada Junior High School,Estacada SD 108,1930
+135,Estacada High School,Estacada SD 108,1930
+136,John Wetten Elementary School,Gladstone SD 115,1931
+137,Walter L Kraxberger Middle School,Gladstone SD 115,1931
+138,Gladstone High School,Gladstone SD 115,1931
+139,Redland Elementary School,Oregon City SD 62,1928
+140,Canby High School,Canby SD 86,1929
+141,Sandy High School,Oregon Trail SD 46,1926
+142,Molalla High School,Molalla River SD 35,1925
+143,Astor Elementary School,Astoria SD 1,1933
+144,Astoria Middle School,Astoria SD 1,1933
+146,Astoria Senior High School,Astoria SD 1,1933
+147,Lewis & Clark Elementary School,Astoria SD 1,1933
+150,Broadway Middle School,Seaside SD 10,1935
+152,Seaside Heights Elementary School,Seaside SD 10,1935
+153,Gearhart Elementary School,Seaside SD 10,1935
+154,Seaside High School,Seaside SD 10,1935
+156,Warrenton Grade School,Warrenton-Hammond SD 30,1936
+157,Warrenton High School,Warrenton-Hammond SD 30,1936
+158,Grant Watts Elementary School,Scappoose SD 1J,1944
+159,Otto Petersen Elementary School,Scappoose SD 1J,1944
+160,Warren Elementary School,Scappoose SD 1J,1944
+161,Scappoose Middle School,Scappoose SD 1J,1944
+162,Scappoose High School,Scappoose SD 1J,1944
+163,Clatskanie Elementary School,Clatskanie SD 6J,1945
+166,Hilda Lahti Elementary School,Knappa SD 4,2262
+168,Clatskanie Middle/High School,Clatskanie SD 6J,1945
+169,Knappa High School,Knappa SD 4,2262
+171,Hudson Park Elementary School,Rainier SD 13,1946
+174,Rainier Jr/Sr High School,Rainier SD 13,1946
+176,Mist Elementary School,Vernonia SD 47J,1947
+177,Vernonia Elementary School,Vernonia SD 47J,1947
+178,Vernonia High School,Vernonia SD 47J,1947
+182,McBride Elementary School,St Helens SD 502,1948
+184,St Helens Middle School,St Helens SD 502,1948
+185,St Helens High School,St Helens SD 502,1948
+189,Lincoln School of Early Learning,Coquille SD 8,1964
+191,Coquille Junior Senior High,Coquille SD 8,1964
+192,Blossom Gulch Elementary School,Coos Bay SD 9,1965
+196,Madison Elementary School,Coos Bay SD 9,1965
+197,Millicoma School,Coos Bay SD 9,1965
+199,Sunset School,Coos Bay SD 9,1965
+201,Marshfield Senior High School,Coos Bay SD 9,1965
+204,Hillcrest Elementary School,North Bend SD 13,1966
+205,North Bay Elementary School,North Bend SD 13,1966
+208,North Bend Middle School,North Bend SD 13,1966
+209,North Bend Senior High School,North Bend SD 13,1966
+210,Powers Elementary School,Powers SD 31,1967
+211,Powers High School,Powers SD 31,1967
+214,Myrtle Crest School,Myrtle Point SD 41,1968
+215,Myrtle Point High School,Myrtle Point SD 41,1968
+216,Harbor Lights Middle School,Bandon SD 54,1969
+217,Ocean Crest Elementary School,Bandon SD 54,1969
+218,Bandon Senior High School,Bandon SD 54,1969
+219,Crooked River Elementary School,Crook County SD,1970
+221,Ochoco Elementary School,Crook County SD,1970
+222,Paulina School,Crook County SD,1970
+223,Powell Butte Community Charter School,Crook County SD,1970
+224,Crook County Middle School,Crook County SD,1970
+225,Crook County High School,Crook County SD,1970
+228,Driftwood Elementary School,Port Orford-Langlois SD 2CJ,1973
+229,Pacific High School,Port Orford-Langlois SD 2CJ,1973
+231,Riley Creek Elementary School,Central Curry SD 1,1972
+235,Azalea Middle School,Brookings-Harbor SD 17C,1974
+236,Kalmiopsis Elementary School,Brookings-Harbor SD 17C,1974
+237,Brookings-Harbor High School,Brookings-Harbor SD 17C,1974
+239,Gold Beach High School,Central Curry SD 1,1972
+241,Bear Creek Elementary School,Bend-LaPine Administrative SD 1,1976
+242,Cascade Middle School,Bend-LaPine Administrative SD 1,1976
+245,LaPine Elementary School,Bend-LaPine Administrative SD 1,1976
+246,Juniper Elementary School,Bend-LaPine Administrative SD 1,1976
+247,R E Jewell Elementary School,Bend-LaPine Administrative SD 1,1976
+249,Pilot Butte Middle School,Bend-LaPine Administrative SD 1,1976
+250,Buckingham Elementary School,Bend-LaPine Administrative SD 1,1976
+251,Bend Senior High School,Bend-LaPine Administrative SD 1,1976
+252,Mountain View Senior High School,Bend-LaPine Administrative SD 1,1976
+253,LaPine Senior High School,Bend-LaPine Administrative SD 1,1976
+256,Sage Elementary School,Redmond SD 2J,1977
+258,John Tuck Elementary School,Redmond SD 2J,1977
+259,M A Lynch Elementary School,Redmond SD 2J,1977
+260,Terrebonne Community School,Redmond SD 2J,1977
+261,Tumalo Community School,Redmond SD 2J,1977
+262,Obsidian Middle School,Redmond SD 2J,1977
+263,Redmond High School,Redmond SD 2J,1977
+264,Sisters Elementary School,Sisters SD 6,1978
+266,Lincoln Middle School,Oakland SD 1,1990
+267,Oakland Elementary School,Oakland SD 1,1990
+268,Oakland High School,Oakland SD 1,1990
+269,Eastwood Elementary School,Douglas County SD 4,1991
+270,Fir Grove Elementary School,Douglas County SD 4,1991
+271,Fullerton IV Elementary School,Douglas County SD 4,1991
+272,Green Elementary School,Douglas County SD 4,1991
+273,Hucrest Elementary School,Douglas County SD 4,1991
+274,Melrose Elementary School,Douglas County SD 4,1991
+276,Sunnyslope Elementary School,Douglas County SD 4,1991
+277,Winchester Elementary,Douglas County SD 4,1991
+278,John C Fremont Middle School,Douglas County SD 4,1991
+279,Joseph Lane Middle School,Douglas County SD 4,1991
+280,Roseburg High School,Douglas County SD 4,1991
+282,Glide Elementary School,Glide SD 12,1992
+284,Glide Middle School,Glide SD 12,1992
+285,Glide High School,Glide SD 12,1992
+289,Canyonville School,South Umpqua SD 19,1994
+290,Myrtle Creek Elementary School,South Umpqua SD 19,1994
+291,Coffenberry Middle School,South Umpqua SD 19,1994
+292,Tri City Elementary School,South Umpqua SD 19,1994
+293,South Umpqua High School,South Umpqua SD 19,1994
+296,North Douglas Elementary School,North Douglas SD 22,1996
+297,North Douglas High School,North Douglas SD 22,1996
+299,Yoncalla Elementary School,Yoncalla SD 32,1997
+300,Yoncalla High School,Yoncalla SD 32,1997
+302,Elkton Charter School,Elkton SD 34,1998
+304,Riddle Elementary School,Riddle SD 70,1999
+305,Riddle High School,Riddle SD 70,1999
+306,Glendale Elementary School,Glendale SD 77,2000
+307,Glendale Community Charter School,Glendale SD 77,2000
+309,Highland Elementary School,Reedsport SD 105,2001
+310,Reedsport Community Charter School,Reedsport SD 105,2001
+311,McGovern Elementary School,Winston-Dillard SD 116,2002
+313,Lookingglass Elementary School,Winston-Dillard SD 116,2002
+315,Winston Middle School,Winston-Dillard SD 116,2002
+316,Douglas High School,Winston-Dillard SD 116,2002
+318,East Sutherlin Primary School,Sutherlin SD 130,2003
+319,Sutherlin Middle School,Sutherlin SD 130,2003
+320,West Sutherlin Intermediate,Sutherlin SD 130,2003
+321,Sutherlin High School,Sutherlin SD 130,2003
+323,Arlington Community Charter School,Arlington SD 3,2005
+325,Condon Elementary School,Condon SD 25J,2006
+326,Condon High School,Condon SD 25J,2006
+327,Humbolt Elementary School,John Day SD 3,2008
+330,Seneca Elementary School,John Day SD 3,2008
+331,Grant Union Junior/Senior High School,John Day SD 3,2008
+342,Henry L Slater Elementary School,Harney County SD 3,2014
+346,Crane Elementary School,Harney County SD 4,2015
+347,Pine Creek Elementary School,Pine Creek SD 5,2016
+348,Diamond Elementary School,Diamond SD 7,2017
+349,Suntex Elementary School,Suntex SD 10,2018
+350,Drewsey Elementary School,Drewsey SD 13,2019
+351,Frenchglen Elementary School,Frenchglen SD 16,2020
+352,Double O Elementary School,Double O SD 28,2021
+355,Hines Middle School,Harney County SD 3,2014
+357,Fields Elementary School,South Harney SD 33,2022
+358,Crane Union High School,Harney County Union High SD 1J,2023
+359,Burns High School,Harney County SD 3,2014
+361,Hood River Middle School,Hood River County SD,2024
+362,May Street Elementary School,Hood River County SD,2024
+363,Mid Valley Elementary School,Hood River County SD,2024
+364,Parkdale Elementary School,Hood River County SD,2024
+366,Westside Elementary School,Hood River County SD,2024
+367,WyEast Middle School,Hood River County SD,2024
+369,Hood River Valley High School,Hood River County SD,2024
+370,Orchard Hill Elementary School,Phoenix-Talent SD 4,2039
+371,Phoenix Elementary School,Phoenix-Talent SD 4,2039
+372,Talent Elementary School,Phoenix-Talent SD 4,2039
+373,Talent Middle School,Phoenix-Talent SD 4,2039
+374,Phoenix High School,Phoenix-Talent SD 4,2039
+375,Bellview Elementary School,Ashland SD 5,2041
+377,Helman Elementary School,Ashland SD 5,2041
+379,Walker Elementary School,Ashland SD 5,2041
+380,Ashland Middle School,Ashland SD 5,2041
+381,Ashland High School,Ashland SD 5,2041
+382,Central Point Elementary School,Central Point SD 6,2042
+383,Jewett Elementary School,Central Point SD 6,2042
+384,Patrick Elementary School,Central Point SD 6,2042
+385,Richardson Elementary School,Central Point SD 6,2042
+386,Sams Valley Elementary School,Central Point SD 6,2042
+387,Hanby Middle School,Central Point SD 6,2042
+388,Scenic Middle School,Central Point SD 6,2042
+390,Hillside Elementary,Eagle Point SD 9,2043
+393,Shady Cove School,Eagle Point SD 9,2043
+394,Table Rock Elementary,Eagle Point SD 9,2043
+396,Eagle Point Middle School,Eagle Point SD 9,2043
+397,Eagle Point High School,Eagle Point SD 9,2043
+399,Rogue River Elementary School,Rogue River SD 35,2044
+401,Rogue River Junior/Senior High,Rogue River SD 35,2044
+402,Applegate Elementary School,Three Rivers/Josephine County SD,2055
+406,Butte Falls Charter School,Butte Falls SD 91,2046
+407,Pinehurst Elementary School,Pinehurst SD 94,2047
+408,Griffin Creek Elementary School,Medford SD 549C,2048
+409,Hoover Elementary School,Medford SD 549C,2048
+410,Howard Elementary School,Medford SD 549C,2048
+411,Jackson Elementary School,Medford SD 549C,2048
+412,Jacksonville Elementary School,Medford SD 549C,2048
+413,Jefferson Elementary School,Medford SD 549C,2048
+414,Lone Pine Elementary School,Medford SD 549C,2048
+415,Oak Grove Elementary School,Medford SD 549C,2048
+416,Kennedy Elementary School,Medford SD 549C,2048
+417,Roosevelt Elementary School,Medford SD 549C,2048
+418,Ruch Elementary School,Medford SD 549C,2048
+419,Washington Elementary School,Medford SD 549C,2048
+420,Wilson Elementary School,Medford SD 549C,2048
+421,Hedrick Middle School,Medford SD 549C,2048
+422,McLoughlin Middle School,Medford SD 549C,2048
+423,South Medford High School,Medford SD 549C,2048
+424,North Medford High School,Medford SD 549C,2048
+425,Culver Elementary School,Culver SD 4,2050
+426,Culver High School,Culver SD 4,2050
+427,Ashwood Elementary School,Ashwood SD 8,2051
+428,Black Butte Elementary School,Black Butte SD 41,2052
+429,Buff Intermediate School,Jefferson County SD 509J,2053
+430,Madras Primary School,Jefferson County SD 509J,2053
+431,Metolius Elementary School,Jefferson County SD 509J,2053
+432,Warm Springs K-8 Academy,Jefferson County SD 509J,2053
+434,Madras High School,Jefferson County SD 509J,2053
+435,Allen Dale Elementary School,Grants Pass SD 7,2054
+436,Highland Elementary School,Grants Pass SD 7,2054
+437,Lincoln Elementary School,Grants Pass SD 7,2054
+438,North Middle School,Grants Pass SD 7,2054
+439,Redwood Elementary School,Grants Pass SD 7,2054
+440,Riverside Elementary School,Grants Pass SD 7,2054
+441,South Middle School,Grants Pass SD 7,2054
+442,Grants Pass High School,Grants Pass SD 7,2054
+443,Evergreen Elementary School,Three Rivers/Josephine County SD,2055
+444,Fleming Middle School,Three Rivers/Josephine County SD,2055
+445,Fruitdale Elementary School,Three Rivers/Josephine County SD,2055
+446,Ft Vannoy Elementary School,Three Rivers/Josephine County SD,2055
+448,Lincoln Savage Middle School,Three Rivers/Josephine County SD,2055
+449,Lorna Byrne Middle School,Three Rivers/Josephine County SD,2055
+450,Madrona Elementary School,Three Rivers/Josephine County SD,2055
+451,Manzanita Elementary School,Three Rivers/Josephine County SD,2055
+453,Williams Elementary School,Three Rivers/Josephine County SD,2055
+455,Hidden Valley High School,Three Rivers/Josephine County SD,2055
+456,Illinois Valley High School,Three Rivers/Josephine County SD,2055
+457,North Valley High School,Three Rivers/Josephine County SD,2055
+459,Joseph Conger Elementary School,Klamath Falls City Schools,2056
+461,Mills Elementary School,Klamath Falls City Schools,2056
+462,Pelican Elementary School,Klamath Falls City Schools,2056
+463,Ponderosa Middle School,Klamath Falls City Schools,2056
+465,Roosevelt Elementary School,Klamath Falls City Schools,2056
+467,Bonanza Elementary School,Klamath County SD,2057
+468,Chiloquin Elementary School,Klamath County SD,2057
+470,Ferguson Elementary School,Klamath County SD,2057
+471,Gearhart Elementary School,Klamath County SD,2057
+472,Gilchrist Elementary School,Klamath County SD,2057
+473,Henley Elementary School,Klamath County SD,2057
+474,Keno Elementary School,Klamath County SD,2057
+475,Malin Elementary School,Klamath County SD,2057
+476,Merrill Elementary School,Klamath County SD,2057
+477,Peterson Elementary School,Klamath County SD,2057
+478,Shasta Elementary School,Klamath County SD,2057
+479,Stearns Elementary School,Klamath County SD,2057
+480,Brixner Junior High School,Klamath County SD,2057
+481,Henley Middle School,Klamath County SD,2057
+482,Bonanza Junior/Senior High School,Klamath County SD,2057
+483,Chiloquin High School,Klamath County SD,2057
+484,Gilchrist Junior/Senior High School,Klamath County SD,2057
+485,Henley High School,Klamath County SD,2057
+486,Lost River High School,Klamath County SD,2057
+487,Klamath Union High School,Klamath Falls City Schools,2056
+488,Mazama High School,Klamath County SD,2057
+489,Union Elementary School,Lake County SD 7,2059
+490,Fremont/Hay Elementary School,Lake County SD 7,2059
+491,Daly Middle School,Lake County SD 7,2059
+492,Lakeview Senior High School,Lake County SD 7,2059
+497,Plush Elementary School,Plush SD 18,2062
+498,Adel Elementary School,Adel SD 21,2063
+500,Pleasant Hill Elementary School,Pleasant Hill SD 1,2081
+502,Pleasant Hill High School,Pleasant Hill SD 1,2081
+503,Adams Elementary School,Eugene SD 4J,2082
+504,Awbrey Park Elementary School,Eugene SD 4J,2082
+506,Cal Young Middle School,Eugene SD 4J,2082
+507,Coburg Community Charter School,Eugene SD 4J,2082
+510,Edison Elementary School,Eugene SD 4J,2082
+513,Gilham Elementary School,Eugene SD 4J,2082
+515,Howard Elementary School,Eugene SD 4J,2082
+518,Kelly Middle School,Eugene SD 4J,2082
+519,Kennedy Middle School,Eugene SD 4J,2082
+520,Madison Middle School,Eugene SD 4J,2082
+522,McCornack Elementary School,Eugene SD 4J,2082
+524,Monroe Middle School,Eugene SD 4J,2082
+525,River Road/El Camino del Rio Elementary School,Eugene SD 4J,2082
+526,Roosevelt Middle School,Eugene SD 4J,2082
+528,Spencer Butte Middle School,Eugene SD 4J,2082
+529,Spring Creek Elementary School,Eugene SD 4J,2082
+530,Twin Oaks Elementary School,Eugene SD 4J,2082
+534,Willagillespie Elementary School,Eugene SD 4J,2082
+536,North Eugene High School,Eugene SD 4J,2082
+537,Eugene Education Options,Eugene SD 4J,2082
+538,Sheldon High School,Eugene SD 4J,2082
+539,South Eugene High School,Eugene SD 4J,2082
+540,Churchill High School,Eugene SD 4J,2082
+542,Briggs Middle School,Springfield SD 19,2083
+544,Centennial Elementary School,Springfield SD 19,2083
+545,Douglas Gardens Elementary School,Springfield SD 19,2083
+546,Elizabeth Page Elementary School,Springfield SD 19,2083
+548,Guy Lee Elementary School,Springfield SD 19,2083
+549,Hamlin Middle School,Springfield SD 19,2083
+550,Maple Elementary School,Springfield SD 19,2083
+553,Ridgeview Elementary School,Springfield SD 19,2083
+554,Mt Vernon Elementary School,Springfield SD 19,2083
+556,Thurston Elementary School,Springfield SD 19,2083
+557,Thurston Middle School,Springfield SD 19,2083
+558,Walterville Elementary School,Springfield SD 19,2083
+559,Yolanda Elementary School,Springfield SD 19,2083
+560,Springfield High School,Springfield SD 19,2083
+561,Thurston High School,Springfield SD 19,2083
+563,Elmira Elementary School,Fern Ridge SD 28J,2084
+564,Fern Ridge Middle School,Fern Ridge SD 28J,2084
+566,Veneta Elementary School,Fern Ridge SD 28J,2084
+567,Elmira High School,Fern Ridge SD 28J,2084
+568,Mapleton Elementary School,Mapleton SD 32,2085
+569,Mapleton Jr/Sr High School,Mapleton SD 32,2085
+570,Creslane Elementary School,Creswell SD 40,2086
+571,Creswell Middle School,Creswell SD 40,2086
+572,Creswell High School,Creswell SD 40,2086
+573,Bohemia Elementary School,South Lane SD 45J3,2087
+574,Dorena School,South Lane SD 45J3,2087
+576,Harrison Elementary School,South Lane SD 45J3,2087
+577,Latham Elementary School,South Lane SD 45J3,2087
+578,London School,South Lane SD 45J3,2087
+579,Lincoln Middle School,South Lane SD 45J3,2087
+580,Cottage Grove High School,South Lane SD 45J3,2087
+581,Cascade Middle School,Bethel SD 52,2088
+582,Clear Lake Elementary School,Bethel SD 52,2088
+583,Danebo Elementary School,Bethel SD 52,2088
+584,Fairfield Elementary School,Bethel SD 52,2088
+585,Irving Elementary School,Bethel SD 52,2088
+586,Malabon Elementary School,Bethel SD 52,2088
+587,Shasta Middle School,Bethel SD 52,2088
+588,Willamette High School,Bethel SD 52,2088
+589,Applegate Elementary School,Crow-Applegate-Lorane SD 66,2089
+592,Crow Middle/High School,Crow-Applegate-Lorane SD 66,2089
+593,McKenzie Elementary School,McKenzie SD 68,2090
+594,McKenzie High School,McKenzie SD 68,2090
+595,Laurel Elementary School,Junction City SD 69,2091
+596,Oaklea Middle School,Junction City SD 69,2091
+597,Junction City High School,Junction City SD 69,2091
+598,Lundy Elementary School,Lowell SD 71,2092
+599,Lowell Junior/Senior High School,Lowell SD 71,2092
+600,Oakridge Elementary School,Oakridge SD 76,2093
+601,Oakridge Junior High School,Oakridge SD 76,2093
+602,Oakridge High School,Oakridge SD 76,2093
+603,Marcola Elementary School,Marcola SD 79J,2094
+604,Mohawk High School,Marcola SD 79J,2094
+608,Siuslaw Middle School,Siuslaw SD 97J,2096
+609,Siuslaw Elementary School,Siuslaw SD 97J,2096
+610,Siuslaw High School,Siuslaw SD 97J,2096
+611,Toledo Elementary School,Lincoln County SD,2097
+614,Olalla Center for Children & Families,Lincoln County SD,2097
+615,Newport Preparatory Academy,Lincoln County SD,2097
+617,Oceanlake Elementary School,Lincoln County SD,2097
+618,Sam Case Elementary School,Lincoln County SD,2097
+620,Taft Elementary School,Lincoln County SD,2097
+623,Crestview Heights School,Lincoln County SD,2097
+625,Newport Intermediate School,Lincoln County SD,2097
+627,Newport High School,Lincoln County SD,2097
+628,Taft High School,Lincoln County SD,2097
+629,Toledo Junior/Senior High School,Lincoln County SD,2097
+630,Waldport High School,Lincoln County SD,2097
+631,Central Elementary School,Greater Albany Public SD 8J,2100
+632,Calapooia Middle School,Greater Albany Public SD 8J,2100
+633,Clover Ridge Elementary School,Greater Albany Public SD 8J,2100
+636,Periwinkle Elementary School,Greater Albany Public SD 8J,2100
+637,North Albany Elementary School,Greater Albany Public SD 8J,2100
+638,North Albany Middle School,Greater Albany Public SD 8J,2100
+639,Oak Grove Elementary School,Greater Albany Public SD 8J,2100
+640,Lafayette Elementary School,Greater Albany Public SD 8J,2100
+641,Liberty Elementary School,Greater Albany Public SD 8J,2100
+642,Memorial Middle School,Greater Albany Public SD 8J,2100
+643,Oak Elementary School,Greater Albany Public SD 8J,2100
+644,Sunrise Elementary School,Greater Albany Public SD 8J,2100
+645,South Shore Elementary School,Greater Albany Public SD 8J,2100
+646,Tangent Elementary School,Greater Albany Public SD 8J,2100
+647,Takena Elementary School,Greater Albany Public SD 8J,2100
+648,Waverly Elementary School,Greater Albany Public SD 8J,2100
+649,West Albany High School,Greater Albany Public SD 8J,2100
+650,South Albany High School,Greater Albany Public SD 8J,2100
+652,Cascades School,Lebanon Community SD 9,2101
+653,Green Acres School,Lebanon Community SD 9,2101
+656,Mari-Linn Elementary School,North Santiam SD 29J,2143
+658,Hamilton Creek School,Lebanon Community SD 9,2101
+659,Harrisburg Elementary School,Harrisburg SD 7J,2099
+662,Foster Elementary School,Sweet Home SD 55,2102
+663,Hawthorne Elementary School,Sweet Home SD 55,2102
+664,Holley Elementary School,Sweet Home SD 55,2102
+666,Oak Heights Elementary School,Sweet Home SD 55,2102
+668,Sweet Home Junior High School,Sweet Home SD 55,2102
+669,Sweet Home High School,Sweet Home SD 55,2102
+671,Lacomb School,Lebanon Community SD 9,2101
+674,Seven Oak Middle School,Lebanon Community SD 9,2101
+676,Centennial Elementary School,Scio SD 95,2103
+677,Scio Middle School,Scio SD 95,2103
+678,Scio High School,Scio SD 95,2103
+681,Santiam Elementary School,Santiam Canyon SD 129J,2104
+683,Santiam Junior/Senior High School,Santiam Canyon SD 129J,2104
+687,Central Linn High School,Central Linn SD 552,2105
+688,Lebanon High School,Lebanon Community SD 9,2101
+689,Harrisburg High School,Harrisburg SD 7J,2099
+691,Jordan Valley Elementary School,Jordan Valley SD 3,2107
+692,Alameda Elementary School,Ontario SD 8C,2108
+693,Cairo Elementary School,Ontario SD 8C,2108
+694,Aiken Elementary School,Ontario SD 8C,2108
+696,May Roberts Elementary School,Ontario SD 8C,2108
+697,Pioneer Elementary School,Ontario SD 8C,2108
+698,Ontario Middle School,Ontario SD 8C,2108
+699,Ontario High School,Ontario SD 8C,2108
+700,Juntura Elementary School,Juntura SD 12,2109
+701,Vale Elementary School,Vale SD 84,2116
+702,Nyssa Elementary School,Nyssa SD 26,2110
+703,Nyssa Middle School,Nyssa SD 26,2110
+704,Nyssa High School,Nyssa SD 26,2110
+705,Annex Charter School,Annex SD 29,2111
+706,Willowcreek Elementary School,Vale SD 84,2116
+707,Adrian Elementary School,Adrian SD 61,2113
+708,Adrian High School,Adrian SD 61,2113
+711,W W Jones Elementary School,Arock SD 81,2115
+712,Jordan Valley High School,Jordan Valley SD 3,2107
+713,Vale High School,Vale SD 84,2116
+714,Eugene Field Elementary School,Silver Falls SD 4J,2138
+715,Mark Twain Middle School,Silver Falls SD 4J,2138
+716,Robert Frost Elementary School,Silver Falls SD 4J,2138
+717,Sublimity Elementary School,North Santiam SD 29J,2143
+718,Evergreen Elementary School,Silver Falls SD 4J,2138
+719,Aumsville Elementary School,Cascade SD 5,2139
+721,Jefferson Elementary School,Jefferson SD 14J,2140
+722,Jefferson Middle School,Jefferson SD 14J,2140
+723,Jefferson High School,Jefferson SD 14J,2140
+724,North Marion Intermediate School,North Marion SD 15,2141
+725,North Marion Middle School,North Marion SD 15,2141
+726,North Marion High School,North Marion SD 15,2141
+728,Auburn Elementary School,Salem-Keizer SD 24J,2142
+731,Brush College Elementary School,Salem-Keizer SD 24J,2142
+732,Bush Elementary School,Salem-Keizer SD 24J,2142
+733,Candalaria Elementary School,Salem-Keizer SD 24J,2142
+734,Clear Lake Elementary School,Salem-Keizer SD 24J,2142
+735,Cummings Elementary School,Salem-Keizer SD 24J,2142
+736,Englewood Elementary School,Salem-Keizer SD 24J,2142
+737,Wright Elementary School,Salem-Keizer SD 24J,2142
+738,Four Corners Elementary School,Salem-Keizer SD 24J,2142
+740,Grant Community School,Salem-Keizer SD 24J,2142
+741,Scott Elementary School,Salem-Keizer SD 24J,2142
+743,Highland Elementary School,Salem-Keizer SD 24J,2142
+744,Hoover Elementary School,Salem-Keizer SD 24J,2142
+745,Gubser Elementary School,Salem-Keizer SD 24J,2142
+746,Kennedy Elementary School,Salem-Keizer SD 24J,2142
+747,Keizer Elementary School,Salem-Keizer SD 24J,2142
+749,Liberty Elementary School,Salem-Keizer SD 24J,2142
+750,McKinley Elementary School,Salem-Keizer SD 24J,2142
+751,Eyre Elementary School,Salem-Keizer SD 24J,2142
+753,Morningside Elementary School,Salem-Keizer SD 24J,2142
+754,Myers Elementary School,Salem-Keizer SD 24J,2142
+755,Hayesville Elementary School,Salem-Keizer SD 24J,2142
+756,Pringle Elementary School,Salem-Keizer SD 24J,2142
+757,Richmond Elementary School,Salem-Keizer SD 24J,2142
+759,Salem Heights Elementary School,Salem-Keizer SD 24J,2142
+760,Schirle Elementary School,Salem-Keizer SD 24J,2142
+761,Sumpter Elementary School,Salem-Keizer SD 24J,2142
+762,Swegle Elementary School,Salem-Keizer SD 24J,2142
+763,Washington Elementary School,Salem-Keizer SD 24J,2142
+764,Yoshikai Elementary School,Salem-Keizer SD 24J,2142
+765,Judson Middle School,Salem-Keizer SD 24J,2142
+766,Leslie Middle School,Salem-Keizer SD 24J,2142
+767,Parrish Middle School,Salem-Keizer SD 24J,2142
+768,Waldo Middle School,Salem-Keizer SD 24J,2142
+769,Walker Middle School,Salem-Keizer SD 24J,2142
+770,Whiteaker Middle School,Salem-Keizer SD 24J,2142
+771,McKay High School,Salem-Keizer SD 24J,2142
+772,McNary High School,Salem-Keizer SD 24J,2142
+773,North Salem High School,Salem-Keizer SD 24J,2142
+774,Sprague High School,Salem-Keizer SD 24J,2142
+775,South Salem High School,Salem-Keizer SD 24J,2142
+776,Gervais Elementary School,Gervais SD 1,2137
+777,Victor Point Elementary School,Silver Falls SD 4J,2138
+778,St Paul Elementary School,St Paul SD 45,2144
+779,St Paul High School,St Paul SD 45,2144
+780,Pratum Elementary School,Silver Falls SD 4J,2138
+784,Bethany Charter School,Silver Falls SD 4J,2138
+785,Scotts Mills Elementary School,Silver Falls SD 4J,2138
+786,Gervais Middle School,Gervais SD 1,2137
+788,Stayton Elementary School,North Santiam SD 29J,2143
+789,Stayton Middle School,North Santiam SD 29J,2143
+790,Turner Elementary School,Cascade SD 5,2139
+792,Mt Angel Middle School,Mt Angel SD 91,2145
+793,St Marys Public School,Mt Angel SD 91,2145
+794,John F Kennedy High School,Mt Angel SD 91,2145
+795,Silver Crest Elementary School,Silver Falls SD 4J,2138
+796,Nellie Muir Elementary School,Woodburn SD 103,2146
+797,Washington Elementary School,Woodburn SD 103,2146
+806,Cloverdale Elementary School,Cascade SD 5,2139
+807,Central Howell Elementary School,Silver Falls SD 4J,2138
+808,Gervais High School,Gervais SD 1,2137
+809,Stayton High School,North Santiam SD 29J,2143
+810,Cascade Junior High School,Cascade SD 5,2139
+811,Cascade Senior High School,Cascade SD 5,2139
+812,Silverton High School,Silver Falls SD 4J,2138
+813,A C Houghton Elementary School,Morrow SD 1,2147
+814,Sam Boardman Elementary School,Morrow SD 1,2147
+815,Heppner Elementary School,Morrow SD 1,2147
+817,Irrigon Junior/Senior High School,Morrow SD 1,2147
+818,Heppner Junior/Senior High School,Morrow SD 1,2147
+820,Riverside Junior/Senior High School,Morrow SD 1,2147
+822,Abernethy Elementary School,Portland SD 1J,2180
+823,Ainsworth Elementary School,Portland SD 1J,2180
+824,Alameda Elementary School,Portland SD 1J,2180
+826,Arleta Elementary School,Portland SD 1J,2180
+827,Astor Elementary School,Portland SD 1J,2180
+828,Atkinson Elementary School,Portland SD 1J,2180
+829,Rosa Parks Elementary School,Portland SD 1J,2180
+830,Beach Elementary School,Portland SD 1J,2180
+831,Beaumont Middle School,Portland SD 1J,2180
+833,Boise-Eliot Elementary School,Portland SD 1J,2180
+834,Bridger Elementary School,Portland SD 1J,2180
+835,Bridlemile Elementary School,Portland SD 1J,2180
+837,Buckman Elementary School,Portland SD 1J,2180
+838,Capitol Hill Elementary School,Portland SD 1J,2180
+839,Chapman Elementary School,Portland SD 1J,2180
+841,Cesar Chavez K-8 School,Portland SD 1J,2180
+842,Harrison Park School,Portland SD 1J,2180
+843,Creston Elementary School,Portland SD 1J,2180
+844,Duniway Elementary School,Portland SD 1J,2180
+847,Faubion Elementary School,Portland SD 1J,2180
+849,George Middle School,Portland SD 1J,2180
+850,Glencoe Elementary School,Portland SD 1J,2180
+852,Gray Middle School,Portland SD 1J,2180
+854,Grout Elementary School,Portland SD 1J,2180
+855,Hayhurst Elementary School,Portland SD 1J,2180
+857,Beverly Cleary School ,Portland SD 1J,2180
+858,Hosford Middle School,Portland SD 1J,2180
+861,Irvington Elementary School,Portland SD 1J,2180
+862,James John Elementary School,Portland SD 1J,2180
+864,Kelly Elementary School,Portland SD 1J,2180
+866,King Elementary School,Portland SD 1J,2180
+868,Laurelhurst Elementary School,Portland SD 1J,2180
+869,Lee Elementary School,Portland SD 1J,2180
+870,Lent Elementary School,Portland SD 1J,2180
+871,Lewis Elementary School,Portland SD 1J,2180
+872,Llewellyn Elementary School,Portland SD 1J,2180
+873,Maplewood Elementary School,Portland SD 1J,2180
+875,Marysville Elementary School,Portland SD 1J,2180
+877,Mt Tabor Middle School,Portland SD 1J,2180
+878,Chief Joseph/Ockley Green School,Portland SD 1J,2180
+878,Chief Joseph/Ockley Green School,Portland SD 1J,2180
+879,Peninsula Elementary School,Portland SD 1J,2180
+880,Parry Center for Children,Portland SD 1J,2180
+883,Richmond Elementary School,Portland SD 1J,2180
+884,Rigler Elementary School,Portland SD 1J,2180
+885,Roseway Heights School,Portland SD 1J,2180
+886,Sabin Elementary School,Portland SD 1J,2180
+887,Scott Elementary School,Portland SD 1J,2180
+888,Sellwood Middle School,Portland SD 1J,2180
+889,Sitton Elementary School,Portland SD 1J,2180
+890,Skyline Elementary School,Portland SD 1J,2180
+892,Stephenson Elementary School,Portland SD 1J,2180
+893,Sunnyside Environmental School,Portland SD 1J,2180
+895,Vernon Elementary School,Portland SD 1J,2180
+896,Vestal Elementary School,Portland SD 1J,2180
+898,West Sylvan Middle School,Portland SD 1J,2180
+900,Whitman Elementary School,Portland SD 1J,2180
+902,Woodlawn Elementary School,Portland SD 1J,2180
+903,Woodmere Elementary School,Portland SD 1J,2180
+904,Woodstock Elementary School,Portland SD 1J,2180
+906,Benson Polytechnic High School,Portland SD 1J,2180
+907,Boys & Girls Aid Society/Johns Landing School,Portland SD 1J,2180
+908,Janus Youth Programs,Portland SD 1J,2180
+909,Cleveland High School,Portland SD 1J,2180
+911,Franklin High School,Portland SD 1J,2180
+912,Grant High School,Portland SD 1J,2180
+913,Jefferson High School,Portland SD 1J,2180
+914,Lincoln High School,Portland SD 1J,2180
+915,Madison High School,Portland SD 1J,2180
+916,Metropolitan Learning Center,Portland SD 1J,2180
+918,Roosevelt High School,Portland SD 1J,2180
+921,White Shield Home,Portland SD 1J,2180
+922,Wilson High School,Portland SD 1J,2180
+925,Prescott Elementary School,Parkrose SD 3,2181
+926,Russell Elementary,Parkrose SD 3,2181
+927,Sacramento Elementary School,Parkrose SD 3,2181
+928,Shaver Elementary School,Parkrose SD 3,2181
+930,Parkrose Middle School,Parkrose SD 3,2181
+931,Parkrose High School,Parkrose SD 3,2181
+932,Dexter McCarty Middle School,Gresham-Barlow SD 10J,2183
+933,East Gresham Elementary School,Gresham-Barlow SD 10J,2183
+934,Gordon Russell Middle School,Gresham-Barlow SD 10J,2183
+935,Highland Elementary School,Gresham-Barlow SD 10J,2183
+936,Hall Elementary School,Gresham-Barlow SD 10J,2183
+937,Hollydale Elementary School,Gresham-Barlow SD 10J,2183
+938,North Gresham Elementary School,Gresham-Barlow SD 10J,2183
+939,Powell Valley Elementary School,Gresham-Barlow SD 10J,2183
+940,West Gresham Elementary School,Gresham-Barlow SD 10J,2183
+941,East Orient Elementary School,Gresham-Barlow SD 10J,2183
+942,West Orient Middle School,Gresham-Barlow SD 10J,2183
+943,Alder Elementary School,Reynolds SD 7,2182
+945,Fairview Elementary School,Reynolds SD 7,2182
+946,Glenfair Elementary School,Reynolds SD 7,2182
+947,Hartley Elementary School,Reynolds SD 7,2182
+948,Margaret Scott Elementary School,Reynolds SD 7,2182
+949,Davis Elementary School,Reynolds SD 7,2182
+950,Sweetbriar Elementary School,Reynolds SD 7,2182
+951,Troutdale Elementary School,Reynolds SD 7,2182
+952,Wilkes Elementary School,Reynolds SD 7,2182
+953,Kerr Youth Center/Wynne Watts School ,Multnomah ESD,2148
+954,Hauton B Lee Middle School,Reynolds SD 7,2182
+957,Reynolds High School,Reynolds SD 7,2182
+958,Sauvie Island Academy,Scappoose SD 1J,1944
+959,Lynch Meadows Elementary School,Centennial SD 28J,2185
+960,Centennial Middle School,Centennial SD 28J,2185
+962,Oliver Elementary School,Centennial SD 28J,2185
+963,Parklane Elementary School,Centennial SD 28J,2185
+964,Lynch View Elementary School,Centennial SD 28J,2185
+965,Lynch Wood Elementary School,Centennial SD 28J,2185
+966,Pleasant Valley Elementary School,Centennial SD 28J,2185
+967,Centennial High School,Centennial SD 28J,2185
+972,Cherry Park Elementary School,David Douglas SD 40,2187
+973,Gilbert Heights Elementary School,David Douglas SD 40,2187
+974,Gilbert Park Elementary School,David Douglas SD 40,2187
+975,Lincoln Park Elementary School,David Douglas SD 40,2187
+976,Menlo Park Elementary School,David Douglas SD 40,2187
+977,Mill Park Elementary School,David Douglas SD 40,2187
+978,Ventura Park Elementary School,David Douglas SD 40,2187
+979,West Powellhurst Elementary School,David Douglas SD 40,2187
+980,Alice Ott Middle School,David Douglas SD 40,2187
+981,Floyd Light Middle School,David Douglas SD 40,2187
+983,David Douglas High School,David Douglas SD 40,2187
+985,Riverdale Grade School,Riverdale SD 51J,2188
+986,Gresham High School,Gresham-Barlow SD 10J,2183
+987,Sam Barlow High School,Gresham-Barlow SD 10J,2183
+989,Lyle Elementary School,Dallas SD 2,2190
+990,Oakdale Heights Elementary School,Dallas SD 2,2190
+993,Whitworth Elementary School,Dallas SD 2,2190
+994,LaCreole Middle School,Dallas SD 2,2190
+995,Dallas High School,Dallas SD 2,2190
+998,Independence Elementary School,Central SD 13J,2191
+999,Monmouth Elementary School,Central SD 13J,2191
+1001,Talmadge Middle School,Central SD 13J,2191
+1002,Central High School,Central SD 13J,2191
+1005,Falls City Elementary School,Falls City SD 57,2193
+1006,Falls City High School,Falls City SD 57,2193
+1009,Sherman Elementary School,Sherman County SD,2195
+1010,Sherman Junior/Senior High School,Sherman County SD,2195
+1012,East Elementary School,Tillamook SD 9,2197
+1013,Liberty Elementary School,Tillamook SD 9,2197
+1014,South Prairie Elementary School,Tillamook SD 9,2197
+1016,Tillamook Junior High School,Tillamook SD 9,2197
+1017,Tillamook High School,Tillamook SD 9,2197
+1019,Nestucca Valley Elementary,Nestucca Valley SD 101J,2199
+1020,Garibaldi Elementary School,Neah-Kah-Nie SD 56,2198
+1021,Nehalem Elementary School,Neah-Kah-Nie SD 56,2198
+1022,Neah-Kah-Nie High School,Neah-Kah-Nie SD 56,2198
+1023,Nestucca High School,Nestucca Valley SD 101J,2199
+1027,Pilot Rock Elementary School,Pilot Rock SD 2,2202
+1028,Pilot Rock High School,Pilot Rock SD 2,2202
+1031,Clara Brownell Middle School,Umatilla SD 6R,2204
+1032,McNary Heights Elementary School,Umatilla SD 6R,2204
+1033,Umatilla High School,Umatilla SD 6R,2204
+1034,Highland Hills Elementary School,Hermiston SD 8,2206
+1036,Rocky Heights Elementary School,Hermiston SD 8,2206
+1037,Sunset Elementary School,Hermiston SD 8,2206
+1038,West Park Elementary School,Hermiston SD 8,2206
+1039,Armand Larive Middle School,Hermiston SD 8,2206
+1040,Hermiston High School,Hermiston SD 8,2206
+1041,Ferndale Elementary School,Milton-Freewater Unified SD 7,2205
+1046,Lincoln Primary School,Pendleton SD 16,2207
+1047,McKay Creek Elementary School,Pendleton SD 16,2207
+1048,Sherwood Heights Elementary School,Pendleton SD 16,2207
+1049,Washington Elementary School,Pendleton SD 16,2207
+1050,West Hills Intermediate,Pendleton SD 16,2207
+1051,Sunridge Middle School,Pendleton SD 16,2207
+1052,Pendleton High School,Pendleton SD 16,2207
+1053,Athena Elementary School,Athena-Weston SD 29RJ,2208
+1055,Weston Middle School,Athena-Weston SD 29RJ,2208
+1056,Weston-McEwen High School,Athena-Weston SD 29RJ,2208
+1057,Central Middle School,Milton-Freewater Unified SD 7,2205
+1058,Freewater Elementary School,Milton-Freewater Unified SD 7,2205
+1059,Grove Elementary School,Milton-Freewater Unified SD 7,2205
+1060,Stanfield Elementary School,Stanfield SD 61,2209
+1061,Stanfield Secondary School,Stanfield SD 61,2209
+1064,McLoughlin High School,Milton-Freewater Unified SD 7,2205
+1066,Central Elementary School,La Grande SD 1,2212
+1067,Grande Ronde Child Ctr,La Grande SD 1,2212
+1068,Greenwood Elementary School,La Grande SD 1,2212
+1069,Island City Elementary School,La Grande SD 1,2212
+1071,Willow Elementary School,La Grande SD 1,2212
+1072,La Grande Middle School,La Grande SD 1,2212
+1073,La Grande High School,La Grande SD 1,2212
+1074,Union Elementary School,Union SD 5,2213
+1075,Union High School,Union SD 5,2213
+1079,Imbler Charter School,Imbler SD 11,2215
+1082,Stella Mayfield Elementary School,Elgin SD 23,2217
+1083,Elgin High School,Elgin SD 23,2217
+1084,Imnaha Elementary School,Joseph SD 6,2219
+1087,Joseph Charter School,Joseph SD 6,2219
+1088,Wallowa Elementary School,Wallowa SD 12,2220
+1089,Wallowa High School,Wallowa SD 12,2220
+1090,Enterprise Elementary School,Enterprise SD 21,2221
+1091,Enterprise High School,Enterprise SD 21,2221
+1092,Troy Elementary School,Troy SD 54,2222
+1093,Chenowith Elementary School,North Wasco County SD 21,4131
+1095,Mosier Community School,North Wasco County SD 21,4131
+1097,Colonel Wright Elementary School,North Wasco County SD 21,4131
+1098,Dry Hollow Elementary School,North Wasco County SD 21,4131
+1100,The Dalles Middle School,North Wasco County SD 21,4131
+1101,The Dalles High School,North Wasco County SD 21,4131
+1108,Maupin Elementary School,South Wasco County SD 1,2225
+1109,South Wasco County High School,South Wasco County SD 1,2225
+1110,Lenox Elementary School,Hillsboro SD 1J,2239
+1111,West Union Elementary School,Hillsboro SD 1J,2239
+1112,Brookwood Elementary School,Hillsboro SD 1J,2239
+1114,W Verne McKinney Elementary School,Hillsboro SD 1J,2239
+1115,Eastwood Elementary School,Hillsboro SD 1J,2239
+1116,Minter Bridge Elementary School,Hillsboro SD 1J,2239
+1117,Mooberry Elementary School,Hillsboro SD 1J,2239
+1119,W L Henry Elementary School,Hillsboro SD 1J,2239
+1120,Banks Elementary School,Banks SD 13,2240
+1123,Banks Middle School,Banks SD 13,2240
+1124,Banks High School,Banks SD 13,2240
+1126,Neil Armstrong Middle School,Forest Grove SD 15,2241
+1127,Tom McCall Upper Elementary,Forest Grove SD 15,2241
+1128,Cornelius Elementary School,Forest Grove SD 15,2241
+1129,Dilley Elementary School,Forest Grove SD 15,2241
+1130,Echo Shaw Elementary School,Forest Grove SD 15,2241
+1132,Harvey Clarke Elementary School,Forest Grove SD 15,2241
+1133,Joseph Gale Elementary School,Forest Grove SD 15,2241
+1134,Forest Grove High School,Forest Grove SD 15,2241
+1135,Bridgeport Elementary School,Tigard-Tualatin SD 23J,2242
+1136,Charles F Tigard Elementary School,Tigard-Tualatin SD 23J,2242
+1137,Mary Woodward Elementary School,Tigard-Tualatin SD 23J,2242
+1138,Durham Elementary School,Tigard-Tualatin SD 23J,2242
+1139,James Templeton Elementary School,Tigard-Tualatin SD 23J,2242
+1140,Metzger Elementary School,Tigard-Tualatin SD 23J,2242
+1142,Edward Byrom Elementary School,Tigard-Tualatin SD 23J,2242
+1143,Tualatin Elementary School,Tigard-Tualatin SD 23J,2242
+1144,Thomas R Fowler Middle School,Tigard-Tualatin SD 23J,2242
+1145,Twality Middle School,Tigard-Tualatin SD 23J,2242
+1146,Tigard High School,Tigard-Tualatin SD 23J,2242
+1147,Butternut Creek Elementary School,Hillsboro SD 1J,2239
+1148,Indian Hills Elementary School,Hillsboro SD 1J,2239
+1149,Reedville Elementary School,Hillsboro SD 1J,2239
+1150,Ladd Acres Elementary School,Hillsboro SD 1J,2239
+1151,Witch Hazel Elementary School,Hillsboro SD 1J,2239
+1152,Groner Elementary School,Hillsboro SD 1J,2239
+1153,Aloha-Huber Park School,Beaverton SD 48J,2243
+1154,Barnes Elementary School,Beaverton SD 48J,2243
+1155,Beaver Acres Elementary School,Beaverton SD 48J,2243
+1156,Bethany Elementary School,Beaverton SD 48J,2243
+1157,Greenway Elementary School,Beaverton SD 48J,2243
+1158,Cedar Mill Elementary School,Beaverton SD 48J,2243
+1159,Chehalem Elementary School,Beaverton SD 48J,2243
+1160,Cooper Mountain Elementary School,Beaverton SD 48J,2243
+1161,Errol Hassell Elementary School,Beaverton SD 48J,2243
+1162,Elmonica Elementary School,Beaverton SD 48J,2243
+1163,Fir Grove Elementary School,Beaverton SD 48J,2243
+1164,Hazeldale Elementary School,Beaverton SD 48J,2243
+1165,Hiteon Elementary School,Beaverton SD 48J,2243
+1166,Kinnaman Elementary School,Beaverton SD 48J,2243
+1167,St Marys Home for Boys- PACE,Northwest Regional ESD,2230
+1168,McKay Elementary School,Beaverton SD 48J,2243
+1169,McKinley Elementary School,Beaverton SD 48J,2243
+1170,Montclair Elementary School,Beaverton SD 48J,2243
+1171,Oak Hills Elementary School,Beaverton SD 48J,2243
+1172,Raleigh Hills Elementary School,Beaverton SD 48J,2243
+1173,Raleigh Park Elementary School,Beaverton SD 48J,2243
+1174,Ridgewood Elementary School,Beaverton SD 48J,2243
+1175,Rock Creek Elementary School,Beaverton SD 48J,2243
+1176,Terra Linda Elementary School,Beaverton SD 48J,2243
+1177,Vose Elementary School,Beaverton SD 48J,2243
+1178,West Tualatin View Elementary School,Beaverton SD 48J,2243
+1179,William Walker Elementary School,Beaverton SD 48J,2243
+1180,Cedar Park Middle School,Beaverton SD 48J,2243
+1181,Five Oaks Middle School,Beaverton SD 48J,2243
+1182,Meadow Park Middle School,Beaverton SD 48J,2243
+1183,Mountain View Middle School,Beaverton SD 48J,2243
+1184,Highland Park Middle School,Beaverton SD 48J,2243
+1185,Whitford Middle School,Beaverton SD 48J,2243
+1186,Aloha High School,Beaverton SD 48J,2243
+1187,Beaverton High School,Beaverton SD 48J,2243
+1188,Sunset High School,Beaverton SD 48J,2243
+1189,Farmington View Elementary School,Hillsboro SD 1J,2239
+1190,North Plains Elementary School,Hillsboro SD 1J,2239
+1191,J Clyde Hopkins Elementary School,Sherwood SD 88J,2244
+1192,Sherwood Middle School,Sherwood SD 88J,2244
+1193,Sherwood High School,Sherwood SD 88J,2244
+1194,Gaston Elementary School,Gaston SD 511J,2245
+1195,Gaston Jr/Sr High School,Gaston SD 511J,2245
+1196,R A Brown Middle School,Hillsboro SD 1J,2239
+1197,Evergreen Jr High School,Hillsboro SD 1J,2239
+1198,South Meadows Middle School,Hillsboro SD 1J,2239
+1199,J W Poynter Middle School,Hillsboro SD 1J,2239
+1200,Glencoe High School,Hillsboro SD 1J,2239
+1201,Hillsboro High School,Hillsboro SD 1J,2239
+1205,Fossil Charter School,Fossil SD 21J,2248
+1208,Amity Elementary School,Amity SD 4J,2252
+1209,Amity Middle School,Amity SD 4J,2252
+1210,Amity High School,Amity SD 4J,2252
+1211,Dayton Grade School,Dayton SD 8,2253
+1212,Dayton High School,Dayton SD 8,2253
+1213,Yamhill Carlton Elementary School,Yamhill Carlton SD 1,2251
+1216,Dundee Elementary School,Newberg SD 29J,2254
+1217,Edwards Elementary School,Newberg SD 29J,2254
+1218,Ewing Young Elementary School,Newberg SD 29J,2254
+1219,Mabel Rush Elementary School,Newberg SD 29J,2254
+1221,Mountain View Middle School,Newberg SD 29J,2254
+1222,Newberg Senior High School,Newberg SD 29J,2254
+1224,Willamina Elementary School,Willamina SD 30J,2255
+1225,Willamina Middle School ,Willamina SD 30J,2255
+1226,Willamina High School,Willamina SD 30J,2255
+1228,Columbus Elementary School,McMinnville SD 40,2256
+1230,Memorial Elementary School,McMinnville SD 40,2256
+1231,Newby Elementary School,McMinnville SD 40,2256
+1232,Wascher Elementary School,McMinnville SD 40,2256
+1233,Patton Middle School,McMinnville SD 40,2256
+1234,McMinnville High School,McMinnville SD 40,2256
+1235,Faulconer-Chapman School,Sheridan SD 48J,2257
+1237,Sheridan High School,Sheridan SD 48J,2257
+1238,Yamhill Carlton High School,Yamhill Carlton SD 1,2251
+1240,Charlemagne at Fox Hollow Elementary School,Eugene SD 4J,2082
+1241,Buena Vista Elementary School,Eugene SD 4J,2082
+1242,Corridor Elementary School,Eugene SD 4J,2082
+1243,Lane Middle School,Portland SD 1J,2180
+1244,Chapman Hill Elementary School,Salem-Keizer SD 24J,2142
+1246,Merrick School,Clackamas ESD,1902
+1248,Colton Middle School,Colton SD 53,1927
+1250,Therapeutic Learning Center,Douglas ESD,1980
+1252,The Child Center,Springfield SD 19,2083
+1254,Reynolds Middle School,Reynolds SD 7,2182
+1257,Klamath Youth Development Center,Klamath Falls City Schools,2056
+1259,Yujin Gakuen Elementary School,Eugene SD 4J,2082
+1260,Polk ADTC,Dallas SD 2,2190
+1264,Mount Scott Elementary School,North Clackamas SD 12,1924
+1266,Three Rivers Elementary School,Bend-LaPine Administrative SD 1,1976
+1267,Lincoln Elementary School,Woodburn SD 103,2146
+1268,French Prairie Middle School,Woodburn SD 103,2146
+1270,Sexton Mountain Elementary School,Beaverton SD 48J,2243
+1271,Old Mill Center for Children & Families,Linn Benton Lincoln ESD,2098
+1272,Boeckman Creek Primary School,West Linn-Wilsonville SD 3J,1922
+1275,Family Solutions - Grants Pass,Grants Pass SD 7,2054
+1277,Jackson Middle School,Portland SD 1J,2180
+1278,Markham Elementary School,Portland SD 1J,2180
+1279,"Morrison Child & Family Services, Hand In Hand ",Portland SD 1J,2180
+1281,Nickerson Center ADTP,Portland SD 1J,2180
+1284,Lifeworks Northwest,Northwest Regional ESD,2230
+1285,Jackson Elementary School,Hillsboro SD 1J,2239
+1286,Willamette Primary School,West Linn-Wilsonville SD 3J,1922
+1287,Athey Creek Middle School,West Linn-Wilsonville SD 3J,1922
+1288,Oak Creek Elementary School,Lake Oswego SD 7J,1923
+1289,North Lake School,North Lake SD 14,2061
+1291,Dayton Jr High School,Dayton SD 8,2253
+1293,Sisters Middle School,Sisters SD 6,1978
+1294,Sisters High School,Sisters SD 6,1978
+1295,Culver Middle School,Culver SD 4,2050
+1297,Territorial Elementary School,Junction City SD 69,2091
+1298,Helensview High School,Multnomah ESD,2148
+1299,Rieke Elementary School,Portland SD 1J,2180
+1300,Hazelbrook Middle School,Tigard-Tualatin SD 23J,2242
+1301,Tualatin High School,Tigard-Tualatin SD 23J,2242
+1302,Tobias Elementary School,Hillsboro SD 1J,2239
+1303,Nancy Ryles Elementary School,Beaverton SD 48J,2243
+1304,Arts and Communication Magnet Academy,Beaverton SD 48J,2243
+1305,Community School,Beaverton SD 48J,2243
+1307,Cecile Trost Elementary School,Canby SD 86,1929
+1308,Elk Meadow Elementary School,Bend-LaPine Administrative SD 1,1976
+1309,High Desert Middle School,Bend-LaPine Administrative SD 1,1976
+1310,LaPine Middle School,Bend-LaPine Administrative SD 1,1976
+1311,Central Linn Elementary School,Central Linn SD 552,2105
+1312,Clear Creek Middle School,Gresham-Barlow SD 10J,2183
+1313,Kelly Creek Elementary School,Gresham-Barlow SD 10J,2183
+1314,School of Science & Technology,Beaverton SD 48J,2243
+1315,Duniway Middle School,McMinnville SD 40,2256
+1317,Lava Ridge Elementary School,Bend-LaPine Administrative SD 1,1976
+1319,Conestoga Middle School,Beaverton SD 48J,2243
+1320,Westview High School,Beaverton SD 48J,2243
+1321,Monroe Grade School,Monroe SD 1J,1898
+1322,Franklin School,Corvallis SD 509J,1901
+1323,Wilsonville High School,West Linn-Wilsonville SD 3J,1922
+1324,Amity Creek Elementary School,Bend-LaPine Administrative SD 1,1976
+1325,Vern Patrick Elementary School,Redmond SD 2J,1977
+1326,Elton Gregory Middle School,Redmond SD 2J,1977
+1329,Crossler Middle School,Salem-Keizer SD 24J,2142
+1330,Houck Middle School,Salem-Keizer SD 24J,2142
+1331,Stephens Middle School,Salem-Keizer SD 24J,2142
+1333,Sandstone Middle School,Hermiston SD 8,2206
+1334,Archer Glen Elementary School,Sherwood SD 88J,2244
+1335,Antonia Crater Elementary School,Newberg SD 29J,2254
+1336,Chehalem Valley Middle School,Newberg SD 29J,2254
+1337,Cecil Sly Elementary School,Crook County SD,1970
+1338,Marshall High School,Bend-LaPine Administrative SD 1,1976
+1339,Family School,Eugene SD 4J,2082
+1343,Reynolds Learning Academy,Reynolds SD 7,2182
+1345,Riverdale High School,Riverdale SD 51J,2188
+1350,Abraham Lincoln Elementary,Medford SD 549C,2048
+1351,Parkside Elementary,Grants Pass SD 7,2054
+1352,Riverbend Elementary School,Springfield SD 19,2083
+1353,Agnes Stewart Middle School,Springfield SD 19,2083
+1354,Gateways High School,Springfield SD 19,2083
+1355,Isaac Newton Magnet School,Lincoln County SD,2097
+1357,Vale Middle School,Vale SD 84,2116
+1358,Howard Street Charter,Salem-Keizer SD 24J,2142
+1359,Heritage Elementary,Woodburn SD 103,2146
+1360,Valor Middle School,Woodburn SD 103,2146
+1363,da Vinci Middle School,Portland SD 1J,2180
+1364,Winterhaven School,Portland SD 1J,2180
+1365,Woodland Elementary,Reynolds SD 7,2182
+1367,Centennial Park School,Centennial SD 28J,2185
+1368,Century High School,Hillsboro SD 1J,2239
+1369,Deer Creek Elementary School,Tigard-Tualatin SD 23J,2242
+1370,Findley Elementary,Beaverton SD 48J,2243
+1380,Oregon State University Child Development Center,ODE Head Start,4371
+1395,Clackamas County Childrens Commission,ODE Head Start,4371
+1481,Community Works/Lithia Springs School,Ashland SD 5,2041
+1487,Southern Oregon Head Start,ODE Head Start,4371
+1528,Head Start of Lane County,ODE Head Start,4371
+1648,Morrison Center Counterpoint Program,Multnomah ESD,2148
+1649,Mt Hood Community College Head Start Mt Hood Site,ODE Head Start,4371
+1773,Jefferson County Middle School,Jefferson County SD 509J,2053
+1774,Edgewood Community Elementary School,Eugene SD 4J,2082
+1782,Kairos - New Beginnings,Three Rivers/Josephine County SD,2055
+1789,SAFE Center School,Springfield SD 19,2083
+1791,Al Kennedy Alternative High School,South Lane SD 45J3,2087
+1792,Jasper Mountain Center,Springfield SD 19,2083
+1800,Legacy Emanuel Hospital (educational program),Multnomah ESD,2148
+1806,Shriners Hospital (educational program) ,Multnomah ESD,2148
+1819,Oregon State Hospital Portland (educational program),Multnomah ESD,2148
+1827,Robert S Farrell High School,ODE YCEP District,3477
+1828,William P Lord High School,ODE YCEP District,3477
+1832,Oregon School for the Deaf,Oregon Department of Education,2336
+2258,Monroe School,ODE YCEP District,3477
+2260,Newbridge High School,ODE YCEP District,3477
+2263,Walt Morey Middle School,Reynolds SD 7,2182
+2264,Meadow View School,Bethel SD 52,2088
+2270,Homestead Youth & Family Services,Pendleton SD 16,2207
+2273,Janus Youth Programs--Cordero House,Tigard-Tualatin SD 23J,2242
+2275,"Morrison Child & Family Services, Breakthrough",Portland SD 1J,2180
+2286,"Northwest Regional Education Service District, Columbia Serv",Northwest Regional ESD,2230
+2287,South Coast ESD EI/ECSE - Coos/Curry,Linn-Benton-Lincoln ESD EI/ECSE (Area 4),2323
+2293,Central Oregon Regional Program,High Desert ESD,1975
+2294,High Desert ESD EI/ECSE - Deschutes (Area 2),High Desert ESD,1975
+2296,North Central ESD EI/ECSE - Gilliam,High Desert ESD EI/ECSE - Deschutes (Area 2),2294
+2298,Harney ESD EI/ECSE,High Desert ESD EI/ECSE - Deschutes (Area 2),2294
+2299,Hood River County SD - EI/ECSE,David Douglas School District EI/ECSE (Area 6),2342
+2300,The Next Door,Hood River County SD,2024
+2303,Southern Oregon Regional Program,Southern Oregon ESD,2025
+2307,High Desert ESD EI/ECSE-Warm Springs Early Childhood Center,High Desert ESD EI/ECSE - Deschutes (Area 2),2294
+2309,EC Intervention Klamath Falls City SD EI/ECSE - Klamath,Douglas ESD EI/ECSE (Area 3),2295
+2312,Lake ESD EI/ECSE,Douglas ESD EI/ECSE (Area 3),2295
+2316,Stepping Stone Lodge,Eugene SD 4J,2082
+2317,Lane Regional Program,Lane ESD,2064
+2319,EC Cares EI/ECSE - Lane,Lane ESD-EI/ECSE (Area 7),2318
+2322,Cascade Regional Program,Linn Benton Lincoln ESD,2098
+2324,Malheur ESD EI/ECSE,InterMountain ESD EI/ECSE-Umatilla (Area 1),2366
+2334,Oregon State Hospital Salem (educational program),Willamette ESD,2117
+2356,Columbia Regional Program,Portland SD 1J,2180
+2364,North Central ESD EI/ECSE-Sherman,High Desert ESD EI/ECSE - Deschutes (Area 2),2294
+2365,"Northwest Regional Education Service District, Tillamook Ser",Northwest Regional ESD,2230
+2371,Eastern Oregon Regional Program,InterMountain ESD,2200
+2373,Columbia Gorge ESD EI/ECSE-Wasco,David Douglas School District EI/ECSE (Area 6),2342
+2376,Oak Grove Academy,Northwest Regional ESD,2230
+2377,Northwest Regional Program,Northwest Regional ESD,2230
+2380,North Central ESD EI/ECSE-Wheeler,High Desert ESD EI/ECSE - Deschutes (Area 2),2294
+2385,South Jetty High School,ODE YCEP District,3477
+2386,RiverBend High School,ODE YCEP District,3477
+2387,Ocean Dunes High School,ODE YCEP District,3477
+2392,Welches Middle School,Oregon Trail SD 46,1926
+2413,Forest Park Elementary School,Portland SD 1J,2180
+2434,Family Solutions - Ashland,Ashland SD 5,2041
+2512,United Community Action Network Head Start,ODE Head Start,4371
+2513,Albina Head Start,ODE Head Start,4371
+2516,The Childrens Learning Center,ODE Head Start,4371
+2517,Community Action Team,ODE Head Start,4371
+2519,Eastern Oregon Head Start,ODE Head Start,4371
+2522,Kids and Company of Linn County (KIDCO) Head Start,ODE Head Start,4371
+2523,Klamath Family Head Start,ODE Head Start,4371
+2525,Community Services Consortium,ODE Head Start,4371
+2526,Malheur County Child Development Center OPP Head Start Site ,ODE Head Start,4371
+2527,Mid-Columbia Childrens Council Inc,ODE Head Start,4371
+2529,Neighborhood House,ODE Head Start,4371
+2530,Oregon Child Development Coalition (OCDC) of Marion County,ODE Head Start,4371
+2531,Portland Public Schools Head Start,ODE Head Start,4371
+2539,Community Action Head Start of Washington County,ODE Head Start,4371
+2541,Head Start of Yamhill County,ODE Head Start,4371
+2714,Durham Center,Tigard-Tualatin SD 23J,2242
+2716,Columbia County Education Campus,St Helens SD 502,1948
+2723,Harrisburg Middle School,Harrisburg SD 7J,2099
+2728,Sheridan Japanese School,Sheridan SD 48J,2257
+2732,Sheridan Spartan Academy,Sheridan SD 48J,2257
+2733,Sojourner School,North Clackamas SD 12,1924
+2734,Sabin-Schellenberg Professional-Technical Center,North Clackamas SD 12,1924
+2735,Oregon City Service Learning Academy,Oregon City SD 62,1928
+2781,Scholls Heights Elementary School,Beaverton SD 48J,2243
+2782,Stoller Middle School,Beaverton SD 48J,2243
+2783,Southridge High School,Beaverton SD 48J,2243
+2784,Grandhaven Elementary School,McMinnville SD 40,2256
+2787,Rosemont Ridge Middle School,West Linn-Wilsonville SD 3J,1922
+2792,Baker County Jail,Baker SD 5J,1894
+2793,Benton County Jail,Corvallis SD 509J,1901
+2794,Clackamas County Jail,Oregon City SD 62,1928
+2795,Clatsop County Jail,Astoria SD 1,1933
+2796,Columbia County Jail,St Helens SD 502,1948
+2797,Coos County Jail,Coquille SD 8,1964
+2798,Crook County Jail,Crook County SD,1970
+2799,Curry County Jail,Central Curry SD 1,1972
+2800,Deschutes County Justice Center,Bend-LaPine Administrative SD 1,1976
+2801,Douglas County Jail,Douglas County SD 4,1991
+2802,Grant County Jail,John Day SD 3,2008
+2803,Harney County Jail,Harney County SD 3,2014
+2804,Hood River County Jail,Hood River County SD,2024
+2805,Jackson County Jail,Medford SD 549C,2048
+2806,Jefferson County Jail,Jefferson County SD 509J,2053
+2807,Josephine County Jail,Grants Pass SD 7,2054
+2808,Klamath County Jail,Klamath Falls City Schools,2056
+2809,Lake County Jail,Lake County SD 7,2059
+2810,Lane County Jail,Eugene SD 4J,2082
+2811,Lincoln County Jail,Lincoln County SD,2097
+2812,Linn County Jail,Greater Albany Public SD 8J,2100
+2813,Malheur County Jail,Vale SD 84,2116
+2814,Marion County Jail,Salem-Keizer SD 24J,2142
+2815,Multnomah County Jail,Portland SD 1J,2180
+2816,Polk County Jail,Dallas SD 2,2190
+2817,Tillamook County Jail,Tillamook SD 9,2197
+2818,Umatilla County Jail,Pendleton SD 16,2207
+2819,Union County Corrections Facility,La Grande SD 1,2212
+2820,Wasco County Jail,North Wasco County SD 21,4131
+2821,Washington County Jail,Hillsboro SD 1J,2239
+2822,Yamhill County Jail,McMinnville SD 40,2256
+2831,COIC Skill Lab,ODE JDEP District,3476
+2832,Mt Nebo Alt Ed,ODE JDEP District,3476
+2836,Jackson County Juvenile,ODE JDEP District,3476
+2839,Klamath County Juvenile,ODE JDEP District,3476
+2841,Lane County Dept of Youth,ODE JDEP District,3476
+2842,Lincoln County Juvenile,ODE JDEP District,3476
+2843,Linn County Juvenile Detention,ODE JDEP District,3476
+2846,Marion County Juvenile Detention,ODE JDEP District,3476
+2848,Donald E Long School,ODE JDEP District,3476
+2858,Yamhill County Juvenile,ODE JDEP District,3476
+2929,NeighborImpact,ODE Head Start,4371
+2939,Community Action Head Start of Marion & Polk Counties,ODE Head Start,4371
+2994,Lourdes School,Scio SD 95,2103
+3029,Metsker Heights at Rainbow Family Services,Willamette ESD,2117
+3037,South Coast Head Start,ODE Head Start,4371
+3075,Umatilla-Morrow Head Start - Umatilla Center,ODE Head Start,4371
+3129,NORCOR Education Detention Center,ODE JDEP District,3476
+3132,Rockville Elementary School,Jordan Valley SD 3,2107
+3146,North Marion Primary School,North Marion SD 15,2141
+3147,Lake Creek Learning Center,Eagle Point SD 9,2043
+3150,Kairos - Three Bridges,Three Rivers/Josephine County SD,2055
+3159,Paul L Patterson Elementary School,Hillsboro SD 1J,2239
+3160,Orenco Elementary School,Hillsboro SD 1J,2239
+3162,Clemens Primary School,Philomath SD 17J,1900
+3168,Arata Creek School,Multnomah ESD,2148
+3198,Spring Mountain Elementary School,North Clackamas SD 12,1924
+3215,Miller Elementary School,Salem-Keizer SD 24J,2142
+3216,Summit High School,Bend-LaPine Administrative SD 1,1976
+3217,Sky View Middle School,Bend-LaPine Administrative SD 1,1976
+3218,High Lakes Elementary School,Bend-LaPine Administrative SD 1,1976
+3219,Highland School at Kenwood Elementary School,Bend-LaPine Administrative SD 1,1976
+3221,Westside Village Magnet School at Kingston Elementary School,Bend-LaPine Administrative SD 1,1976
+3222,Middleton Elementary School,Sherwood SD 88J,2244
+3227,Destinations Academy,Coos Bay SD 9,1965
+3229,Village School,Eugene SD 4J,2082
+3233,Ridgeline Montessori,Eugene SD 4J,2082
+3240,Lincoln City Career Technical High School,Lincoln County SD,2097
+3247,Armadillo Technical Institute,Phoenix-Talent SD 4,2039
+3342,Oak Grove Elementary,North Clackamas SD 12,1924
+3347,Burnt River School,Burnt River SD 30J,1896
+3348,Days Creek Charter School,Douglas County SD 15,1993
+3349,Prairie City School,Prairie City SD 4,2009
+3350,Monument School,Monument SD 8,2010
+3351,Huntington School,Huntington SD 16J,1895
+3352,Jewell School,Jewell SD 8,1934
+3353,Dayville School,Dayville SD 16J,2011
+3356,Prospect Charter School,Prospect SD 59,2045
+3360,Paisley School,Paisley SD 11,2060
+3361,Eddyville Charter School,Lincoln County SD,2097
+3362,Harper Charter School,Harper SD 66,2114
+3363,Ione Community Charter School,Ione SD R2,3997
+3364,Helix School,Helix SD 1,2201
+3365,North Powder Charter School,North Powder SD 8J,2214
+3366,Long Creek School,Long Creek SD 17,2012
+3369,Sitka Academy,Willamette ESD,2117
+3372,Cascade Locks School,Hood River County SD,2024
+3373,Claggett Creek Middle School,Salem-Keizer SD 24J,2142
+3374,Weddle Elementary School,Salem-Keizer SD 24J,2142
+3375,Lamb Elementary School,Salem-Keizer SD 24J,2142
+3376,Hammond Elementary School,Salem-Keizer SD 24J,2142
+3377,Hallman Elementary School,Salem-Keizer SD 24J,2142
+3378,Perrydale School,Perrydale SD 21,2192
+3400,Camas Valley School,Camas Valley SD 21J,1995
+3401,Triangle Lake Charter School,Blachly SD 90,2095
+3402,Dufur School,Dufur SD 29,2229
+3403,Spray School,Spray SD 1,2247
+3404,Mitchell School,Mitchell SD 55,2249
+3426,Desert View Elementary School,Hermiston SD 8,2206
+3432,Ukiah School,Ukiah SD 80R,2210
+3433,Echo School,Echo SD 5,2203
+3434,Cove Charter School,Cove SD 15,2216
+3437,Jacob Wismer Elementary School,Beaverton SD 48J,2243
+3440,Kings Valley Charter School,Philomath SD 17J,1900
+3448,REALMS (Rimrock Expeditionary Alternative Learning Middle Sc,Bend-LaPine Administrative SD 1,1976
+3451,Opal School of the Portland Children's Museum,Portland SD 1J,2180
+3452,Three Rivers Charter School,West Linn-Wilsonville SD 3J,1922
+3455,Bolton Primary School,West Linn-Wilsonville SD 3J,1922
+3458,Big Muddy Elementary,Jefferson County SD 509J,2053
+3461,Luckiamute Valley Charter School,Dallas SD 2,2190
+3463,West Salem High School,Salem-Keizer SD 24J,2142
+3464,Ash Creek Elementary School,Central SD 13J,2191
+3490,Multisensory Learning Academy,Reynolds SD 7,2182
+3493,EAGLE CAP Innovative HS,Baker SD 5J,1894
+3503,Riverview School,Lebanon Community SD 9,2101
+3504,Pioneer School,Lebanon Community SD 9,2101
+3505,Sand Ridge Charter School,Lebanon Community SD 9,2101
+3510,Clackamas ESD Prekindergarten,ODE Head Start,4371
+3525,Earl Boyles Elementary,David Douglas SD 40,2187
+3526,Lee Elementary School,Salem-Keizer SD 24J,2142
+3528,Optimum Learning Environment Charter School,Salem-Keizer SD 24J,2142
+3529,Forest Ridge Elementary School,Salem-Keizer SD 24J,2142
+3530,Alder Creek Middle School,North Clackamas SD 12,1924
+3536,Imlay Elementary School,Hillsboro SD 1J,2239
+3542,Salem-Keizer Prekindergarten Head Start,ODE Head Start,4371
+3543,Hogan Cedars Elementary School,Gresham-Barlow SD 10J,2183
+3553,Center for Advanced Learning,Gresham-Barlow SD 10J,2183
+3554,Central Medford High School,Medford SD 549C,2048
+3566,Kalapuya High School,Bethel SD 52,2088
+3567,Prairie Mountain School,Bethel SD 52,2088
+3569,Lewis & Clark Elementary School,St Helens SD 502,1948
+3577,Springwater Trail High School,Gresham-Barlow SD 10J,2183
+3579,Multi-sensory Instruction Teaching Children Hands-On (MITCH),Tigard-Tualatin SD 23J,2242
+3580,Arthur Academy,David Douglas SD 40,2187
+3582,Catholic Community Services,Salem-Keizer SD 24J,2142
+3584,Parry Center SCIP,Portland SD 1J,2180
+3615,Lighthouse Charter School,North Bend SD 13,1966
+3616,Trillium ,Portland SD 1J,2180
+3624,Brockway Elementary School,Winston-Dillard SD 116,2002
+3649,Butler Creek Elementary School,Centennial SD 28J,2185
+3652,Family Solutions - Central Point,Central Point SD 6,2042
+3653,Family Solutions - Medford,Medford SD 549C,2048
+3672,Confederated Tribes of Grand Ronde Community of Oregon,ODE Head Start,4371
+3676,Confederated Tribes of the Warm Springs Reservation,ODE Head Start,4371
+3740,Burns Alternative School,Harney County SD 3,2014
+3913,Boones Ferry Primary School,West Linn-Wilsonville SD 3J,1922
+3947,Pine Ridge Elementary,Bend-LaPine Administrative SD 1,1976
+3950,Albany Options School,Greater Albany Public SD 8J,2100
+3986,Fern Hill Elementary School,Forest Grove SD 15,2241
+3989,Salish Ponds Elementary School,Reynolds SD 7,2182
+3990,Oregon Coast Technology School,North Bend SD 13,1966
+3991,Emerson School,Portland SD 1J,2180
+4004,New Urban High School,North Clackamas SD 12,1924
+4005,El Puente,North Clackamas SD 12,1924
+4018,Liberty High School,Hillsboro SD 1J,2239
+4020,Eagle Rock Elementary School,Eagle Point SD 9,2043
+4021,White Mountain Middle School,Eagle Point SD 9,2043
+4024,Samuel Brown Academy,Gervais SD 1,2137
+4025,Coquille Valley Elementary,Coquille SD 8,1964
+4038,Siletz Valley Schools,Lincoln County SD,2097
+4040,Four Rivers Community School,Oregon Department of Education,2336
+4041,Network Charter School,Eugene SD 4J,2082
+4045,West Lane Technology Learning Center,Fern Ridge SD 28J,2084
+4047,Windy River Elementary School,Morrow SD 1,2147
+4048,Irrigon Elementary School,Morrow SD 1,2147
+4058,Willamette Leadership Academy,Springfield SD 19,2083
+4068,Harritt Elementary School,Salem-Keizer SD 24J,2142
+4079,Resource Link Charter School,Coos Bay SD 9,1965
+4105,Central Oregon Even Start Program,High Desert ESD,1975
+4108,Project LISTO Even Start,Southern Oregon ESD,2025
+4110,Even Start Family Literacy System,South Coast ESD,1949
+4116,Hawthorne Middle/High School,Pendleton SD 16,2207
+4129,Ensworth Elementary School,Bend-LaPine Administrative SD 1,1976
+4146,Cesar Chavez Elementary School,Eugene SD 4J,2082
+4157,Holt Elementary School,Eugene SD 4J,2082
+4196,Oregon Child Development Coalition (OCDC) of Washington Coun,ODE Head Start,4371
+4198,Head Start of Harney County,ODE Head Start,4371
+4199,North Central ESD Early Education Head Start,ODE Head Start,4371
+4202,Nixyaawii Community School,Pendleton SD 16,2207
+4203,Doernbecher Childrens Hospital (educational program),Multnomah ESD,2148
+4206,City View Charter School,Hillsboro SD 1J,2239
+4210,Jane Goodall Environmental Middle Charter School,Salem-Keizer SD 24J,2142
+4212,"Self Enhancement, Inc/SEI Academy",Portland SD 1J,2180
+4216,Reynolds Arthur Academy,Reynolds SD 7,2182
+4220,Sherwood Charter School,Sherwood SD 88J,2244
+4221,South Columbia Family School,Scappoose SD 1J,1944
+4223,Clackamas Web Academy,North Clackamas SD 12,1924
+4226,Clackamas Middle College,North Clackamas SD 12,1924
+4230,Woodburn Arthur Academy,Woodburn SD 103,2146
+4232,Ron Russell Middle School,David Douglas SD 40,2187
+4234,North Columbia Academy,Rainier SD 13,1946
+4342,Joan Austin Elementary School,Newberg SD 29J,2254
+4364,Alberta Rider Elementary School,Tigard-Tualatin SD 23J,2242
+4369,Milwaukie Academy of the Arts,North Clackamas SD 12,1924
+4378,URCEO-Upper Rogue Center for Educational Opportunities,Eagle Point SD 9,2043
+4390,Valley Inquiry Charter School,Salem-Keizer SD 24J,2142
+4391,Phoenix School,Douglas County SD 4,1991
+4392,Pioneer Secondary Alternative High School,Crook County SD,1970
+4395,Childs Way Charter School,South Lane SD 45J3,2087
+4396,Vernonia Middle School,Vernonia SD 47J,1947
+4399,Oregon Connections Academy,Scio SD 95,2103
+4400,Portland Arthur Academy Charter School,Portland SD 1J,2180
+4405,Wildflowers,Portland SD 1J,2180
+4429,Tom McCall Elementary School,Redmond SD 2J,1977
+4434,Baker Prairie Middle School,Canby SD 86,1929
+4435,Philander Lee Elementary School,Canby SD 86,1929
+4440,Academy of Arts and Academics,Springfield SD 19,2083
+4464,Leadership and Entrepreneurship Public Charter High School,Portland SD 1J,2180
+4468,Siletz Valley Early College Academy,Lincoln County SD,2097
+4474,International School of Beaverton,Beaverton SD 48J,2243
+4475,Cascade Heights Public Charter School,North Clackamas SD 12,1924
+4476,John Muir Elementary School ,Ashland SD 5,2041
+4480,Springwater Environmental Sciences School,Oregon City SD 62,1928
+4481,Neah-Kah-Nie Middle School,Neah-Kah-Nie SD 56,2198
+4484,Sweet Home Charter School,Sweet Home SD 55,2102
+4505,Eola Hills Charter School,Amity SD 4J,2252
+4507,Alliance High School,Portland SD 1J,2180
+4534,Portland Village School,Portland SD 1J,2180
+4540,Academy of International Studies (at Woodburn),Woodburn SD 103,2146
+4541,"Wellness, Business and Sports School",Woodburn SD 103,2146
+4542,"Woodburn Academy of Art, Science and Technology",Woodburn SD 103,2146
+4543,Woodburn Arts and Communications Academy,Woodburn SD 103,2146
+4544,Woodburn Success,Woodburn SD 103,2146
+4545,EagleRidge High School,Klamath Falls City Schools,2056
+4554,Arts and Technology Academy at Jefferson,Eugene SD 4J,2082
+4555,Academy for Character Education,South Lane SD 45J3,2087
+4557,Crater Academy of Health and Public Services,Central Point SD 6,2042
+4559,Crater School of Business Innovation and Science,Central Point SD 6,2042
+4561,Crater Renaissance Academy,Central Point SD 6,2042
+4562,Southern Oregon ESD EI/ECSE-Josephine ,Douglas ESD EI/ECSE (Area 3),2295
+4564,Yamhill Carlton Intermediate School,Yamhill Carlton SD 1,2251
+4581,Sage Community School,Klamath County SD,2057
+4585,Alliance Charter Academy,Oregon City SD 62,1928
+4588,Trask River High School,ODE YCEP District,3477
+4589,Early College High School,Salem-Keizer SD 24J,2142
+4590,Woodburn Family Literacy Center,Woodburn SD 103,2146
+4592,Corbett School,Corbett SD 39,2186
+4593,Madrone Trail Public Charter School,Medford SD 549C,2048
+4595,Forest Grove Community School,Forest Grove SD 15,2241
+4596,Roberts High School,Salem-Keizer SD 24J,2142
+4601,Gresham Arthur Academy,Gresham-Barlow SD 10J,2183
+4602,St Helens Arthur Academy,St Helens SD 502,1948
+4603,Kairos - Coastline,North Bend SD 13,1966
+4604,Southwest Charter School,Oregon Department of Education,2336
+4609,Three Lakes High School,ODE YCEP District,3477
+4637,Inavale Community Partners dba Muddy Creek Charter School ,Corvallis SD 509J,1901
+4638,Health & Science School,Beaverton SD 48J,2243
+4639,Sue Buel Elementary,McMinnville SD 40,2256
+4640,Creative Science School,Portland SD 1J,2180
+4641,Free Orchards Elementary School,Hillsboro SD 1J,2239
+4642,Lincoln Street Elementary School,Hillsboro SD 1J,2239
+4643,Quatama Elementary School,Hillsboro SD 1J,2239
+4646,Ponderosa Elementary,Bend-LaPine Administrative SD 1,1976
+4648,ACE Academy,Reynolds SD 7,2182
+4667,Lewis and Clark Montessori Charter School,Gresham-Barlow SD 10J,2183
+4670,Estacada Web Academy,Estacada SD 108,1930
+4671,Bonny Slope Elementary School,Beaverton SD 48J,2243
+4672,Oregon Child Development Coalition (OCDC) of Jackson County,ODE Head Start,4371
+4673,Oregon Child Development Coalition (OCDC) of Klamath County,ODE Head Start,4371
+4680,William E Miller Elementary,Bend-LaPine Administrative SD 1,1976
+4689,Clackamas River School,Clackamas ESD,1902
+4690,Oregon Virtual Academy,North Bend SD 13,1966
+4702,Silvies River Charter School,Frenchglen SD 16,2020
+4703,Rosedale Elementary School,Hillsboro SD 1J,2239
+4712,Springville K-8 School,Beaverton SD 48J,2243
+4713,Scouters Mountain Elementary,North Clackamas SD 12,1924
+4714,Verne A Duncan Elementary School,North Clackamas SD 12,1924
+4715,Happy Valley Middle School,North Clackamas SD 12,1924
+4719,Gladstone Center for Children and Families,Gladstone SD 115,1931
+4720,The Ivy School,Oregon Department of Education,2336
+4728,Baker Web Academy,Baker SD 5J,1894
+4729,Redmond Proficiency Academy,Redmond SD 2J,1977
+4730,Edy Ridge Elementary School,Sherwood SD 88J,2244
+4731,Laurel Ridge Middle School,Sherwood SD 88J,2244
+4739,Camas Ridge Community Elementary ,Eugene SD 4J,2082
+4740,Metro East Web Academy,Gresham-Barlow SD 10J,2183
+4743,Innovative Learning Center,Hermiston SD 8,2206
+4744,Timber Ridge School,Greater Albany Public SD 8J,2100
+4745,Molalla River Academy,Molalla River SD 35,1925
+4746,The Community Roots School,Silver Falls SD 4J,2138
+4747,Corbett Charter School,Corbett SD 39,2186
+4759,Baker Early College,Baker SD 5J,1894
+4760,Estacada Early College,Estacada SD 108,1930
+4762,Ardenwald Elementary School,North Clackamas SD 12,1924
+4763,Happy Valley Elementary School,North Clackamas SD 12,1924
+4764,Lewelling Elementary School,North Clackamas SD 12,1924
+4765,Linwood Elementary School,North Clackamas SD 12,1924
+4766,Oregon Trail Elementary School,North Clackamas SD 12,1924
+4767,Rock Creek Middle School,North Clackamas SD 12,1924
+4773,Arts and Technology High School,West Linn-Wilsonville SD 3J,1922
+4793,Rosland Elementary,Bend-LaPine Administrative SD 1,1976
+4802,Clackamas Academy of Industrial Sciences,Oregon City SD 62,1928
+4805,Arco Iris Spanish Immersion School,Beaverton SD 48J,2243
+4818,Renaissance Public Academy,Molalla River SD 35,1925
+4820,Oregon Trail  Academy,Oregon Trail SD 46,1926
+4821,Logos Public Charter School,Medford SD 549C,2048
+4822,KNOVA Reynolds Public Charter School,Reynolds SD 7,2182
+4823,Sunny Wolf Charter School,Three Rivers/Josephine County SD,2055
+4833,Sheridan AllPrep Academy,Sheridan SD 48J,2257
+4846,Lifeways Inc,InterMountain ESD,2200
+4848,Falcon Heights Academy,Klamath County SD,2057
+4849,Mosier Middle School,North Wasco County SD 21,4131
+4850,Eagle Charter School,Oregon Department of Education,2336
+4856,Rivers Edge Academy Charter School,Rogue River SD 35,2044
+4857,Winter Lakes School,Coquille SD 8,1964
+4858,Kalapuya Elementary School,Salem-Keizer SD 24J,2142
+4859,Straub Middle School,Salem-Keizer SD 24J,2142
+4867,Hope Chinese Charter School,Beaverton SD 48J,2243
+4973,Hillsboro Online Academy,Hillsboro SD 1J,2239
+5056,Lowrie Primary School,West Linn-Wilsonville SD 3J,1922
+5057,Trillium Creek Primary School,West Linn-Wilsonville SD 3J,1922
+5058,Ridgeview High School,Redmond SD 2J,1977
+5059,Two Rivers Dos Rios Elementary ,Springfield SD 19,2083
+5060,Le Monde French Immersion Public Charter School,Portland SD 1J,2180
+5061,Oregon Virtual Education - West,Gaston SD 511J,2245
+5062,Oregon Virtual Education - East,Sherman County SD,2195
+5063,Woodland Charter School,Three Rivers/Josephine County SD,2055
+5064,Cesar E Chavez Elem ,Salem-Keizer SD 24J,2142
+5066,Battle Creek Elementary School,Salem-Keizer SD 24J,2142
+5150,Insight School of Oregon-Charter Option,Crook County SD,1970
+5160,Wake Robin School,Linn Benton Lincoln ESD,2098
+5201,Dillard Alternative High School,Winston-Dillard SD 116,2002
+5205,Kids Unlimited Academy,Medford SD 549C,2048
+5218,Kairos PDX,Portland SD 1J,2180
+5250,Wahtonka Community School,North Wasco County SD 21,4131
+5251,Crater Lake Charter Academy,Eagle Point SD 9,2043
+5252,Mountain View Academy,Lowell SD 71,2092
+5253,Corbett Enviro-STEM High School,Corbett SD 39,2186
+5270,Providence Pediatric Nursing Facility,Portland SD 1J,2180
+5299,Oregon State Hospital - Junction City Campus,Lane ESD,2064
+5305,SAGE Youth Residential Program,Portland SD 1J,2180
