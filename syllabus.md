@@ -14,7 +14,7 @@ Review (No Notes)
 ### Day 7 10/31
 [Stored Code and Transactions](Class Notes/Session 7 - Stored Code.md) - [Ending Config Files](Config/Session 7)
 ### Day 8 11/2
-Loading Data
+[Loading Data](Class Notes/Session 8 - Loading Data.md)
 ### Day 9 11/7
 Using Python from Postgres
 ### Day 10 11/9
