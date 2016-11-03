@@ -6,7 +6,7 @@
 ### Day 3 10/17
 [Select Queries](Class Notes/Session 3 - Select Queries.md) -  [Answers](Answers/Session 3 Answers.txt) - [Ending Config Files](Config/Session 3)
 ### Day 4 10/19
-[Other Queries](Class Notes/Session 4 - Other Queries.md) - Answers will be posted 11/2
+[Other Queries](Class Notes/Session 4 - Other Queries.md) - [Answers](Answers/Session 4 Answers.txt)
 ### Day 5 10/24
 [Normalization](Class Notes/Session 5 - Normalization.md)
 ### Day 6 10/26

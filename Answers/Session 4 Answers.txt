@@ -1,0 +1,156 @@
+--1. For each crime type, count the number of neighborhoods where it happened.
+SELECT major_offense_type, COUNT(DISTINCT neighborhood)
+FROM crimedata.crimedataraw
+GROUP BY major_offense_type
+
+--2. Create sentences for the different crime types saying "<crime type> isn't ok."
+SELECT major_offense_type || ' isn''t ok.'
+FROM crimedata.crimedataraw
+LIMIT 10
+
+--3. Extract distinct crime types from crimedataraw using select into and then ADD an id column.
+SELECT DISTINCT major_offense_type
+INTO crime_types
+FROM crimedata.crimedataraw
+
+--4. Add appropriate crime type id to crimedataraw.
+ALTER TABLE crime_types ADD COLUMN id SERIAL;
+ALTER TABLE crimedata.crimedataraw ADD COLUMN major_offense_type_id INT;
+
+UPDATE crimedata.crimedataraw SET major_offense_type_id = ct.id
+FROM crime_types ct
+WHERE crimedataraw.major_offense_type = ct.major_offense_type;
+
+--5. Repeat for neighborhood names using create table and not altering the table after.
+CREATE TABLE neighborhoods
+(
+	id SERIAL,
+	neighborhood VARCHAR
+);
+
+INSERT INTO neighborhoods (neighborhood)
+SELECT DISTINCT neighborhood
+FROM crimedata.crimedataraw;
+
+ALTER TABLE crimedata.crimedataraw ADD neighborhood_id INT;
+
+UPDATE crimedata.crimedataraw SET neighborhood_id = n.id
+FROM neighborhoods n
+WHERE crimedata.crimedataraw.neighborhood = n.neighborhood;
+
+--6. Pull back the number of each crime type committed per neighborhood (0 if there were 0).
+SELECT n.neighborhood, ct.major_offense_type, COUNT(cdr.id) as number_of_offenses
+FROM neighborhoods n CROSS JOIN crime_types ct
+LEFT JOIN crimedata.crimedataraw cdr
+	ON cdr.neighborhood_id = n.id
+		AND cdr.major_offense_type_id = ct.id
+GROUP BY n.neighborhood, ct.major_offense_type;
+
+--checking my work
+SELECT COUNT(*) FROM neighborhoods;
+SELECT COUNT(*) FROM crime_types;
+SELECT 117*27;
+
+--7. Assuming that each neighborhood is square and lines up with the coordinate system, which neighborhood has the highest crime rate per square foot?  Do it with one query?
+SELECT neighborhood, COUNT(*) / (2000+(MAX(x_coordinate) - MIN(x_coordinate)) * (MAX(y_coordinate) - MIN(y_coordinate)))
+FROM crimedata.crimedataraw
+GROUP BY neighborhood
+HAVING (2000 + (MAX(x_coordinate) - MIN(x_coordinate)) * (MAX(y_coordinate) - MIN(y_coordinate))) > 0
+ORDER BY 2 DESC
+
+--Harder Questions
+--1. Which neighborhood has the highest rate of each type of crime?
+
+--option 1
+SELECT neighborhood, major_offense_type
+FROM	(SELECT neighborhood, major_offense_type, ROW_NUMBER() OVER (PARTITION BY major_offense_type ORDER BY occurences DESC) rank
+	FROM (SELECT neighborhood, major_offense_type, COUNT(*) as occurences
+		FROM crimedata.crimedataraw
+		GROUP BY neighborhood, major_offense_type
+		) counts_of_crime_types_by_hood
+	) ranks_of_crime_types_by_hood
+WHERE rank = 1
+
+--with CTEs
+WITH counts_of_crime_types_by_hood AS
+(
+	SELECT neighborhood, major_offense_type, COUNT(*) as occurences
+	FROM crimedata.crimedataraw
+	GROUP BY neighborhood, major_offense_type
+),
+	ranks_of_crime_types_by_hood AS
+(
+	SELECT neighborhood, major_offense_type, ROW_NUMBER() OVER (PARTITION BY major_offense_type ORDER BY occurences DESC) rank
+	FROM counts_of_crime_types_by_hood
+)
+
+SELECT neighborhood, major_offense_type
+FROM	ranks_of_crime_types_by_hood
+WHERE rank = 1
+
+
+
+--2. List each crime and show the type of the previous crime committed in that same neighborhood.
+SELECT *, LAG(cdr.major_offense_type, 1) OVER (PARTITION BY neighborhood_id ORDER BY report_date, report_time)
+FROM crimedata.crimedataraw cdr
+LIMIT 10
+
+
+--3. Modify crime type table to include cost_per_crime and populate with data similar to what's found here http://www.rand.org/jie/justice-policy/centers/quality-policing/cost-of-crime.html
+--insert values LIMIT a temp table and do an join to allow an batch update to the major crime table.
+CREATE TEMP TABLE costs_raw(offense VARCHAR, cost INT);
+
+INSERT INTO costs_raw
+VALUES ('Murder', 8649216),
+	('Rape', 217866),
+	('Robbery', 67277),
+	('Aggravated Assault', 87238),
+	('Burglary', 13096),
+	('Larceny', 2139),
+	('Motor Vehicle Theft', 9079)
+
+SELECT *
+FROM costs_raw cr FULL OUTER JOIN crime_types ct
+	ON cr.offense = ct.major_offense_type;
+
+ALTER TABLE costs_raw ADD mapping_name VARCHAR;
+
+UPDATE costs_raw SET mapping_name = offense;
+UPDATE costs_raw SET mapping_name = 'Homicide'
+WHERE offense = 'Murder';
+
+SELECT *
+FROM costs_raw cr FULL OUTER JOIN crime_types ct
+	ON cr.mapping_name = ct.major_offense_type
+WHERE ct.major_offense_type IS NULL
+
+ALTER TABLE crime_types ADD cost INTEGER;
+
+UPDATE crime_types ct SET cost = cr.cost
+FROM costs_raw cr
+WHERE ct.major_offense_type = cr.mapping_name
+
+SELECT *
+FROM crime_types
+
+--4. Pull back total crimes and total crime cost for each neighborhood.
+SELECT neighborhood, COUNT(*), SUM(cost)
+FROM crimedata.crimedataraw cdr INNER JOIN crime_types ct
+	ON cdr.major_offense_type_id = ct.ID
+GROUP BY neighborhood
+
+--5. Which crime has the highest total cost by for each neighborhood.
+
+SELECT neighborhood, COUNT(*), SUM(cost)
+FROM crimedata.crimedataraw cdr INNER JOIN crime_types ct
+	ON cdr.major_offense_type_id = ct.ID
+GROUP BY neighborhood
+
+--6. Pull back total crimes and total crime cost for the neighborhood with the highest total cost.
+SELECT *
+FROM (SELECT neighborhood, major_offense_type, SUM(cost) cost, ROW_NUMBER() OVER (PARTITION BY neighborhood ORDER BY SUM(cost) DESC) rank
+		FROM crimedata.crimedataraw cdr INNER JOIN crime_types ct
+			ON cdr.major_offense_type_id = ct.ID
+		GROUP BY neighborhood, major_offense_type
+		) cost_by_neighborhood
+WHERE rank = 1
