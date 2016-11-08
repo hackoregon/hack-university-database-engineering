@@ -16,7 +16,7 @@ Review (No Notes)
 ### Day 8 11/2
 [Loading Data](Class Notes/Session 8 - Loading Data.md)
 ### Day 9 11/7
-[Using Python from Postgres](Class Notes/Session 9 - Python.md)
+[Using Python from Postgres](Class Notes/Session 9 - Python.md) - [Ending Config Files](Config/Session 9)
 ### Day 10 11/9
 Spatial Types and Redundancy
 ### Day 11 11/14
