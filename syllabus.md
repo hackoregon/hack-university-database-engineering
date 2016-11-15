@@ -20,18 +20,18 @@ Review (No Notes)
 ### Day 10 11/9
 [Spatial Types and Redundancy](Class Notes/Session 10 - GIS.md) - [Ending Config Files](Config/Session 10)
 ### Day 11 11/14
-Django ORM (with Web Frameworks class)
+Security
 ### Day 12 11/16
-ETL and Data Cleanup
+Django ORM (with Web Frameworks class)
 ### Day Off 11/21
 Dream About Turkey
 ### Day Off #2 11/23
 Start Cooking Turkey
 ### Day 13 11/28
-Security
-### Day 14 11/30
 Regular Expressions, Under the Hood/Query Optimization
-### Day 15 12/5
+### Day 14 11/30
 Text Queries and Map Reduce
+### Day 15 12/5
+Student Projects
 ### Day 16 12/7
-More Data Loading
+More Student Projects
