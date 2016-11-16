@@ -175,7 +175,9 @@ In pgadmin3, create a schema for the osm by running ```CREATE SCHEMA osm;``` and
 
 Convert the shape file to sql by running ```shp2pgsql portland_oregon_osm_roads osm.roads > loadRoads.sql```.  Last, execute ```psql < loadRoads.sql``` to import this data into the database.  Both of these commands will take most of a minute to run and will look like they've hung.
 
---Find Glisan
+Lookups can happen on the name field.  For instance, to find NW Glisan, you might start by looking at all the spellings of Glisan (to ensure we standardize our address correctly) and then look for all of the records in roads that match our chosen spelling.
+
+```sql
 SELECT DISTINCT name
 FROM osm.roads
 WHERE UPPER(name) like UPPER('%Glisan%')
@@ -183,6 +185,7 @@ WHERE UPPER(name) like UPPER('%Glisan%')
 SELECT *
 FROM osm.roads
 WHERE name = 'Northwest Glisan Street'
+```
 
 ### General Transit Feed Specification
 
