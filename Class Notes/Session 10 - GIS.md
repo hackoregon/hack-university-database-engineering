@@ -118,7 +118,7 @@ apt-get install unzip
 is a shorthand for
 ```
 ST_GeomFromText('POINT(0 0)')
-```.
+```
 
 ##### Shape Specific Functions
 
