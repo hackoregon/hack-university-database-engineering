@@ -112,9 +112,13 @@ apt-get install unzip
 - ST_GeomFromText - creates a shape from text.
 - ST_AsSVG - returns a shape as a Support Vector Graphic (can be used on webpages).
 
-```'POINT(0 0)'::geometry
 ```
-is a shorthand for ```ST_GeomFromText('POINT(0 0)')```.
+'POINT(0 0)'::geometry
+```
+is a shorthand for
+```
+ST_GeomFromText('POINT(0 0)')
+```.
 
 ##### Shape Specific Functions
 
