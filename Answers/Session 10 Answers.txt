@@ -1,0 +1,33 @@
+-- 1.streets that intersect with NW Glisan
+SELECT g2.name
+FROM osm.roads g1 INNER JOIN osm.roads g2
+	ON ST_INTERSECTS(g1.geom, g2.geom)
+	--ON ST_CROSSES(g1.geom, g2.geom)
+WHERE g1.name = 'Northwest Glisan Street' AND g2.name <> 'Northwest Glisan Street'
+GROUP BY g2.name
+ORDER BY MIN(ST_X(ST_INTERSECTION(g1.geom, g2.geom)))
+
+
+--2. What bus routes pass 321 NW Glisan St?  You'll need data from trips.txt for this question.
+SELECT DISTINCT route_id, shape_id
+INTO gtfs.routes
+FROM gtfs.trips
+LIMIT 10
+
+SELECT DISTINCT ST_DISTANCE(ST_GeogFromText('SRID=4326;POINT(-122.674063 45.5270588)'), shape::geography), r.route_id
+FROM gtfs.shapes s INNER JOIN gtfs.routes r
+	ON s.shape_id = r.shape_id
+WHERE ST_DISTANCE(ST_GeogFromText('SRID=4326;POINT(-122.674063 45.5270588)'), shape::geography) < 50
+ORDER BY ST_DISTANCE(ST_GeogFromText('SRID=4326;POINT(-122.674063 45.5270588)'), shape::geography), route_id;
+
+SELECT DISTINCT ST_DISTANCE(ST_GeomFromText('SRID=4326;POINT(-122.674063 45.5270588)'), shape::geometry), r.route_id
+FROM gtfs.shapes s INNER JOIN gtfs.routes r
+	ON s.shape_id = r.shape_id
+WHERE ST_DISTANCE(ST_GeomFromText('SRID=4326;POINT(-122.674063 45.5270588)'), shape::geometry) < 0.00050
+ORDER BY ST_DISTANCE(ST_GeomFromText('SRID=4326;POINT(-122.674063 45.5270588)'), shape::geometry), route_id;
+
+SELECT DISTINCT ST_DISTANCE(ST_GeomFromText('SRID=4326;POINT(-122.674063 45.5270588)'), shape), r.route_id
+FROM gtfs.shapes s INNER JOIN gtfs.routes r
+	ON s.shape_id = r.shape_id
+WHERE ST_DISTANCE(ST_GeomFromText('SRID=4326;POINT(-122.674063 45.5270588)'), shape) < 0.00050
+ORDER BY ST_DISTANCE(ST_GeomFromText('SRID=4326;POINT(-122.674063 45.5270588)'), shape);

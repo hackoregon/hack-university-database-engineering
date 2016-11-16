@@ -203,7 +203,7 @@ COPY gtfs.shapes_raw FROM '/home/vagrant/proj/data/gtfs/shapes.txt' WITH (FORMAT
 Each point of a line shows up as its own record, we'd rather see the data combined.
 ```sql
 
-SELECT shape_id, ST_MakeLine(ST_SetSRID(ST_MakePoint(shape_pt_lat, shape_pt_lon), 4326) ORDER BY shape_pt_sequence) as shape
+SELECT shape_id, ST_MakeLine(ST_SetSRID(ST_MakePoint(shape_pt_lon, shape_pt_lat), 4326) ORDER BY shape_pt_sequence) as shape
 INTO gtfs.shapes
 FROM gtfs.shapes_raw
 GROUP BY shape_id

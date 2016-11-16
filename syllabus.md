@@ -8,7 +8,7 @@
 ### Day 4 10/19
 [Other Queries](Class Notes/Session 4 - Other Queries.md) - [Answers](Answers/Session 4 Answers.txt)
 ### Day 5 10/24
-[Normalization](Class Notes/Session 5 - Normalization.md)
+[Normalization](Class Notes/Session 5 - Normalization.md) - [Answers](Answers/Session 5 Answers.txt)
 ### Day 6 10/26
 Review (No Notes)
 ### Day 7 10/31
@@ -18,7 +18,7 @@ Review (No Notes)
 ### Day 9 11/7
 [Using Python from Postgres](Class Notes/Session 9 - Python.md) - [Ending Config Files](Config/Session 9)
 ### Day 10 11/9
-[Spatial Types and Redundancy](Class Notes/Session 10 - GIS.md) - [Ending Config Files](Config/Session 10)
+[Spatial Types and Redundancy](Class Notes/Session 10 - GIS.md) - [Ending Config Files](Config/Session 10) - [Answers](Answers/Session 10.txt)
 ### Day 11 11/14
 [Security](Class Notes/Session 11 - Security.md)
 ### Day 12 11/16

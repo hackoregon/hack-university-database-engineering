@@ -1,0 +1,159 @@
+--1. Run the first two queries.
+```
+SELECT neighborhood
+INTO TEMP t
+FROM crimedataraw
+GROUP BY neighborhood
+
+SELECT neighborhood
+INTO TEMP t2
+FROM crimedataraw
+WHERE major_offense_type = 'Runaway'
+GROUP BY neighborhood
+```
+Next, rewrite this query without using any inner or outer joins.
+```
+SELECT *
+FROM t LEFT OUTER JOIN t2
+	ON t.neighborhood = t2.neighborhood
+```
+/*start with the base cross join*/
+SELECT *
+FROM t CROSS JOIN t2
+WHERE t.neighborhood = t2.neighborhood
+UNION ALL--Add everything that appears in table t, but doesn't have a match in t2
+(
+SELECT t.neighborhood, NULL
+FROM t
+EXCEPT
+SELECT t2.neighborhood, NULL
+FROM t2
+)
+
+--2. Select the crime types and counts into a temp table.  select 1 record from this table and then delete that record.  Make sure that your select/delete queries will work the second and third time they're executed.
+SELECT major_offense_type, COUNT(*) AS occurences
+INTO TEMP t
+FROM crimedataraw
+GROUP BY major_offense_type;
+
+SELECT *
+FROM t
+ORDER BY major_offense_type
+LIMIT 1;
+
+--I can be sure that I deleted the correct record here because I know that major_offense_type is unique.
+DELETE FROM t
+WHERE major_offense_type = (SELECT major_offense_type
+				FROM t
+				ORDER BY major_offense_type
+				LIMIT 1);
+
+
+
+--3. Create a CTE to join crimedataraw and the two related tables.  Select all of the data from it.  How long did it take?  Run it several times and right down how long it takes.
+WITH rejoined AS
+(
+SELECT *
+FROM crimedataraw cdr INNER JOIN crime_types ct
+	ON cdr.major_offense_type_id = ct.ID
+INNER JOIN neighborhoods n
+	ON cdr.neighborhood_id = n.ID
+)
+SELECT *
+FROM rejoined
+LIMIT 10
+
+--4. Create primary key constraints on all appropriate columns for 3 crime data tables
+ALTER TABLE Crimedataraw ADD CONSTRAINT PK_crimedataraw PRIMARY KEY (ID);
+ALTER TABLE crime_types ADD CONSTRAINT PK_crime_types PRIMARY KEY (ID);
+ALTER TABLE neighborhoods ADD CONSTRAINT PK_neighborhoods PRIMARY KEY (ID);
+
+--5. Create foreign key constraints on all appropriate columns for crime data tables
+ALTER TABLE Crimedataraw ADD CONSTRAINT FK_crimedataraw_crime_type FOREIGN KEY (major_offense_type_ID) REFERENCES crime_types (ID);
+ALTER TABLE Crimedataraw ADD CONSTRAINT FK_crimedataraw_neighborhoods FOREIGN KEY (neighborhood_id) REFERENCES neighborhoods (ID);
+
+--6. How long does the CTE query take now?
+About the same.  Sometimes indexes don't help.
+
+--7. Create a timestamp column that combines the time and date.  Call it report_time_date.
+ALTER TABLE crimedataraw ADD Report_Time_Date TIMESTAMP;
+
+UPDATE crimedataraw SET Report_Time_Date = Report_time+report_date;
+
+--8. Use a correlated subquery to select all of the information on each crime plus the crime type of the previous crime commited in the same neighborhood.  Do not use a windowing function here.  How long does the query take.  Execute it several times and write down how long it takes.
+SELECT *, (SELECT major_offense_type
+		FROM crimedataraw i
+		WHERE i.neighborhood = o.neighborhood
+			AND i.Report_Time_Date = (SELECT MAX(Report_Time_Date)
+						FROM crimedataraw previous_crime_in_same_hood
+						WHERE previous_crime_in_same_hood.neighborhood = o.neighborhood
+							AND previous_crime_in_same_hood.Report_Time_Date < o.Report_Time_Date)
+		LIMIT 1) AS previous_crime_committed_in_the_same_neighborhood
+FROM crimedataraw o
+-->6 min
+
+
+
+--9. Add an index for that subquery.  How long does the query take now?
+CREATE INDEX ix_crimedataraw_report_time_date ON crimedataraw (Report_Time_Date);
+CREATE INDEX ix_crimedataraw_neighborhood_report_time_date ON crimedataraw (neighborhood, Report_Time_Date);
+
+--execution is now about 19.3 sec.  Sometimes indexes do help.
+
+--10. Create a new varchar column called test_column on crimedataraw.  Run an update statement to assign the value 'value' to the test column for every row.  Write down how long it took.  Run the update several times.  Write down the execution time for each run.  Create 3 new indexes on crimedataraw that include the column test_column.  How long does the update take now?
+
+
+ALTER TABLE crimedata.crimedataraw ADD test_column VARCHAR;
+
+UPDATE crimedata.crimedataraw SET test_column = 'value';
+--~600 ms
+
+CREATE INDEX ix_1 ON crimedata.crimedataraw (test_column);
+CREATE INDEX ix_2 ON crimedata.crimedataraw (test_column, ID);
+CREATE INDEX ix_3 ON crimedata.crimedataraw (test_column, neighborhood);
+
+UPDATE crimedata.crimedataraw SET test_column = 'value'
+~1300 ms
+
+ALTER TABLE crimedata.crimedataraw DROP test_column;
+
+--11. Draw an ERD for our crime data.  What would you change to make it 3rd normal form?  Do it.  What would you change to make it more useful for our queries?
+
+ALTER TABLE crimedataraw DROP major_offense_type, DROP neighborhood;
+
+SELECT police_district, count(distinct police_precinct)
+FROM crimedataraw
+GROUP BY police_district
+HAVING count(distinct police_precinct) > 1
+
+SELECT police_precinct, count(distinct police_district)
+FROM crimedataraw
+GROUP BY police_precinct
+HAVING count(distinct police_district) > 1
+
+SELECT DISTINCT police_district, police_precinct
+FROM crimedataraw
+WHERE police_district = '20'
+--There's almost a one to many relationship between precinct and district, but district 20 breaks it.  So, this isn't a dependency.
+
+SELECT police_district, count(distinct neighborhood_id)
+FROM crimedataraw
+GROUP BY police_district
+HAVING count(distinct neighborhood_id) > 1
+
+SELECT neighborhood_id, count(distinct police_district)
+FROM crimedataraw
+GROUP BY neighborhood_id
+HAVING count(distinct police_district) > 1
+--no relationship between hood and district
+
+SELECT police_precinct, count(distinct neighborhood_id)
+FROM crimedataraw
+GROUP BY police_precinct
+HAVING count(distinct neighborhood_id) > 1
+
+SELECT neighborhood_id, count(distinct police_precinct)
+FROM crimedataraw
+GROUP BY neighborhood_id
+HAVING count(distinct police_precinct) > 1
+--no relationship here either, so we're done.

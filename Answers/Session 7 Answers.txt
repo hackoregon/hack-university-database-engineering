@@ -1,0 +1,47 @@
+--1. Write a python function called py_max that accept two ints and returns the greater of them.
+CREATE OR REPLACE FUNCTION public.py_max(l int, r int)
+	RETURNS int
+AS $$
+
+if r == None:
+	return l
+elif l == None:
+	return r
+elif l > r:
+	return l
+else:
+	return r
+$$ LANGUAGE plpython3u;
+
+
+select PY_MAX(null, 3);
+
+
+/*2. Write a python function that returns 10 random numbers as separate rows. The following code snippet returns a random number.
+
+import random
+random.random()*/
+
+CREATE OR REPLACE FUNCTION public.py_rand_rows()
+	RETURNS TABLE(random FLOAT)
+AS $$
+import random
+retval = []
+for i in range(10):
+	retval.append(random.random())
+return retval
+$$ LANGUAGE plpython3u;
+
+select *
+from py_rand_rows();
+
+/*Harder Assignment
+
+    Walk through all of the steps of the census data import on your own and confirm that you can make them work. What population center in Oregon has the highest fraction of people over 65 years of age?
+
+The datafile includes person once per sumlevel. Limit your search to sumlevel 160 (the city level).*/
+
+SELECT name, pop_over65, total, pop_over65 * 1.0 / total as fraction_of_population_over_65, *
+FROM census.orgeo2010
+WHERE sumlev = '160' and total <> 0
+ORDER BY pop_over65 * 1.0 / total DESC
