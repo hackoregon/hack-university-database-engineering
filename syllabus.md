@@ -18,7 +18,7 @@ Review (No Notes)
 ### Day 9 11/7
 [Using Python from Postgres](Class Notes/Session 9 - Python.md) - [Ending Config Files](Config/Session 9)
 ### Day 10 11/9
-[Spatial Types and Redundancy](Class Notes/Session 10 - GIS.md) - [Ending Config Files](Config/Session 10) - [Answers](Answers/Session 10.txt)
+[Spatial Types and Redundancy](Class Notes/Session 10 - GIS.md) - [Ending Config Files](Config/Session 10) - [Answers](Answers/Session 10 Answers.txt)
 ### Day 11 11/14
 [Security](Class Notes/Session 11 - Security.md) - [Ending Config Files](Config/Session 11)
 ### Day 12 11/16
