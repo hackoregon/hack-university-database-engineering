@@ -22,7 +22,7 @@ Review (No Notes)
 ### Day 11 11/14
 [Security](Class Notes/Session 11 - Security.md) - [Ending Config Files](Config/Session 11) - [Answers](Answers/Session 11 Answers.txt)
 ### Day 12 11/16
-Django ORM (with Web Frameworks class)
+[Django ORM (with Web Frameworks class)](Class Notes/Session 12 - Python ORM.md)
 ### Day Off 11/21
 Dream About Turkey
 ### Day Off #2 11/23
