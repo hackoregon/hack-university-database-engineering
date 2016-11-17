@@ -1,0 +1,24 @@
+--1.Create a new user with a password.
+CREATE USER simple WITH PASSWORD 'password';
+
+--2.Login to pgadmin3 using that account and look at what tables you can see and select from.
+
+Create a new connection with any name you want.  Host needs to be populated and either '127.0.0.1' or 'localhost' should work (if it isn't populated, pgadmin3 will use peer authentication).  The username and password need to be populated based on your create user statement above.  The connections can exist in parallel.
+
+The account can only access data in the public schema, other schemas are private by default.
+
+--3.Create a new table in the public schema.
+CREATE TABLE public.simple
+(
+	val VARCHAR
+);
+
+--4.Give that account select permission on crimedata.crimedataraw and then select some data from it (you might have to reconnect for the permissions to become visible).
+--run as vagrant
+GRANT USAGE ON SCHEMA crimedata TO simple; -- let's the user see items in this schema
+GRANT SELECT ON crimedata.crimedataraw TO simple; -- let's the user read from crimedataraw
+
+--ran as simple (no reconnection was required)
+SELECT *
+FROM crimedata.crimedataraw
+LIMIT 10;
