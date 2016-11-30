@@ -74,11 +74,11 @@ HDFS involves chunking up data and distributing it to different child systems.  
 
 Map reduce is the pattern used to express these queries.  Map and reduce features are commonly available in functional programming languages.  Map applies a function to every data point in a set.  Reduce takes a set and reduces it a single value, which might itself be a set.
 
-[This jupyter notebook](Resources/Python Map Reduce Example.ipynb) has an example of map/reduce in practice.
+[This jupyter notebook](../Resources/Python Map Reduce Example.ipynb) has an example of map/reduce in practice.
 
 In addition to mapping and reducing, there's also a shuffle step.  Basically, map returns the transformed data plus a bucket.  An internal function routes all of the data in the same bucket to the same reducer.  This would be helpful if you were doing something like a hash join.
 
 # Assignment
 
-1. Write map reduce to count the letters in the sentence 'This is pretty cool.' 
+1. Write map reduce to count the letters in the sentence 'This is pretty cool.'
 2. Write map reduce to get the count of words of each length in the above sentence.
