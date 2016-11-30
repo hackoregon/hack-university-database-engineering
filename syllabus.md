@@ -28,9 +28,9 @@ Dream About Turkey
 ### Day Off #2 11/23
 Start Cooking Turkey
 ### Day 13 11/28
-Regular Expressions, Under the Hood/Query Optimization
+[Regular Expressions, Under the Hood/Query Optimization](Class Notes/Session 13 - Under the Hood.md)
 ### Day 14 11/30
-Text Queries and Map Reduce
+Text Queries and Map Reduce - [Map/Reduce Example](Resources/Python Map Reduce Example.ipynb)
 ### Day 15 12/5
 Student Projects
 ### Day 16 12/7

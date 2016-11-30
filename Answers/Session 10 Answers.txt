@@ -12,22 +12,28 @@ ORDER BY MIN(ST_X(ST_INTERSECTION(g1.geom, g2.geom)))
 SELECT DISTINCT route_id, shape_id
 INTO gtfs.routes
 FROM gtfs.trips
-LIMIT 10
 
-SELECT DISTINCT ST_DISTANCE(ST_GeogFromText('SRID=4326;POINT(-122.674063 45.5270588)'), shape::geography), r.route_id
+
+SELECT MIN(ST_DISTANCE(ST_GeogFromText('SRID=4326;POINT(-122.674063 45.5270588)'), shape::geography))
+	, r.route_id
 FROM gtfs.shapes s INNER JOIN gtfs.routes r
 	ON s.shape_id = r.shape_id
 WHERE ST_DISTANCE(ST_GeogFromText('SRID=4326;POINT(-122.674063 45.5270588)'), shape::geography) < 50
-ORDER BY ST_DISTANCE(ST_GeogFromText('SRID=4326;POINT(-122.674063 45.5270588)'), shape::geography), route_id;
+GROUP BY r.route_id
+ORDER BY 1, 2;
 
-SELECT DISTINCT ST_DISTANCE(ST_GeomFromText('SRID=4326;POINT(-122.674063 45.5270588)'), shape::geometry), r.route_id
+SELECT MIN( ST_DISTANCE(ST_GeomFromText('SRID=4326;POINT(-122.674063 45.5270588)'), shape::geometry))
+	, r.route_id
 FROM gtfs.shapes s INNER JOIN gtfs.routes r
 	ON s.shape_id = r.shape_id
 WHERE ST_DISTANCE(ST_GeomFromText('SRID=4326;POINT(-122.674063 45.5270588)'), shape::geometry) < 0.00050
-ORDER BY ST_DISTANCE(ST_GeomFromText('SRID=4326;POINT(-122.674063 45.5270588)'), shape::geometry), route_id;
+GROUP BY r.route_id
+ORDER BY 1, 2;
 
-SELECT DISTINCT ST_DISTANCE(ST_GeomFromText('SRID=4326;POINT(-122.674063 45.5270588)'), shape), r.route_id
+SELECT MIN(ST_DISTANCE(ST_GeomFromText('SRID=4326;POINT(-122.674063 45.5270588)'), shape))
+	, r.route_id
 FROM gtfs.shapes s INNER JOIN gtfs.routes r
 	ON s.shape_id = r.shape_id
 WHERE ST_DISTANCE(ST_GeomFromText('SRID=4326;POINT(-122.674063 45.5270588)'), shape) < 0.00050
-ORDER BY ST_DISTANCE(ST_GeomFromText('SRID=4326;POINT(-122.674063 45.5270588)'), shape);
+GROUP BY r.route_id
+ORDER BY 1, 2;

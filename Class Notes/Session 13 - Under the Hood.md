@@ -114,13 +114,22 @@ Ensure the tables are sorted.  Start with the lowest element in each table and m
 
 ### Query Optimizer
 
-Rewrite queries as needed.  Determine best procedural steps to get to results.
+Rewrite queries as needed.  Determine best procedural steps to get to results.  For instance, if you have the following query, the system might choose to test ID first and it might choose to test password first.  If you have typical indexes, looking up ID first will be far faster.
+
+```sql
+SELECT 1
+FROM users
+WHERE ID = 'alice'
+	AND password = 'password';
+```
 
 #### Immutable Functions
 
-Can the function be pushed up or not?
+The system tracks whether a function is allowed to change results between calls.  It's incapable of determining that for python functions.  If the results never change, the function will only be called once.
 
 #### Stats
+
+The system tracks basic statistics on the values of each column.  It can use this info to guess about which criterion will be most helpful in getting to the answer.
 
 ### Caching
 
@@ -128,7 +137,11 @@ Take guesses about what data will be used regularly.  The algorithms employed ar
 
 ## Explain Plan
 
-What the system is actually doing and how much it costs.
+What the system is actually doing and how much it costs.  Virtually every query tool has a button to see the execution plan.
+
+## CTID/Vacuum
+
+The ctid is the physical location of a record on disk.  It can change.  When a record is updated, a new copy of the record is made with a different ctid and version number.  When a query looks at a table, it only looks at versions that were created when the query started.  If a new version is created after a query is started, that version is ignored.  It's impossible to access a version of a row that was not current when you started your query.  The VACUUM command clears out inaccessible rows and frees up the space.  It can be set to run by default.  
 
 
 ## Tasks
