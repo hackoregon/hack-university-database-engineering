@@ -30,8 +30,8 @@ Start Cooking Turkey
 ### Day 13 11/28
 [Regular Expressions, Under the Hood/Query Optimization](Class Notes/Session 13 - Under the Hood.md)
 ### Day 14 11/30
-Text Queries and Map Reduce - [Map/Reduce Example](Resources/Python Map Reduce Example.ipynb)
+Text Queries and Map Reduce - [Map/Reduce Example](Resources/Python Map Reduce Example.ipynb) - [Answers](Answers/Python Map Reduce Example with answers.ipynb)
 ### Day 15 12/5
-Student Projects
+[Student Projects](Class Notes/Session 15 - Project.md)
 ### Day 16 12/7
 More Student Projects
