@@ -1,8 +1,9 @@
 # Install and Big O
 
-##  start by [installing vagrant](../install.md)
+## start by [installing vagrant](../install.md)
 
-##Big O
+## Big O
+
 Big O is easy.  It takes something that can be hard (but doesn't have to be) and makes it less hard.
 
 algorithm: steps to accomplish a thing.
